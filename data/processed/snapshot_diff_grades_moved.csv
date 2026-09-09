@@ -1,0 +1,40 @@
+climb_id,climb_name,climb_type,grade_clean_old,grade_clean,direction,num_ascents
+15,Aladdin,Sport route,8c,8b+,downgrade,9.0
+226,Sarah,Boulder problem,8A+,8A,downgrade,1.0
+227,Tea with Elmarie,Boulder problem,8A+,8A,downgrade,5.0
+307,Ramadán,Sport route,8b,8a+,downgrade,5.0
+337,Hang Ten,Sport route,8a,7c,downgrade,1.0
+708,Baa Baa Black Sheep,Sport route,8c+,8c,downgrade,2.0
+811,Ixeia,Sport route,8b+,8b,downgrade,5.0
+1034,Margins of the Mind,Trad climb,E7,E8,rescale,4.0
+1081,Ivory Madonna,Trad climb,E5,E6,rescale,3.0
+1322,Direquiem,Trad climb,E10,E9,rescale,2.0
+1469,City Park,Trad climb,8b,E8,rescale,10.0
+1684,Simon,Sport route,8a,8a+,upgrade,1.0
+2295,Tom Egan Memorial Route,Multi-pitch,8c,E10,rescale,1.0
+2753,Ego Death,Boulder problem,8C,8B+,downgrade,9.0
+2849,Wind Up Bird,Sport route,9a+,9b,upgrade,1.0
+2919,Clash of the Titans,Sport route,9a+,9b,upgrade,3.0
+3261,Luftig kö till nålens öga,Boulder problem,8B,8B+,upgrade,5.0
+3396,El Corazon,Boulder problem,8A+,8B,upgrade,22.0
+3619,Ty Pwmpty,Trad climb,E8,E9,rescale,6.0
+3775,Shelter,Boulder problem,8B,8A+,downgrade,39.0
+3954,Autobahn,Trad climb,E10,E9,rescale,5.0
+3992,1up,Boulder problem,8A+,8B,upgrade,5.0
+4264,Gwindel Zeit,Boulder problem,8B+,8B,downgrade,4.0
+4293,Shantaram,Boulder problem,8C,8B+,downgrade,4.0
+4367,Birch Problem,Boulder problem,8B+,8B,downgrade,5.0
+4526,Witchhammer,Sport route,8c+,9a,upgrade,10.0
+4562,Abstraksjon,Boulder problem,8B,8A+,downgrade,4.0
+4693,Sulualliansen,Trad climb,E8,E9,rescale,2.0
+4989,Dying to Live,Boulder problem,8B+,8C,upgrade,2.0
+5130,100 i benk,Boulder problem,8B+,8B,downgrade,3.0
+5260,Resurrection,Sport route,8c,8b+,downgrade,1.0
+5454,Underwave,Boulder problem,8C,8B+,downgrade,3.0
+5478,Dreams Never End,Boulder problem,8B+,8C,upgrade,1.0
+5680,Cryolite,Boulder problem,8B+,8C,upgrade,2.0
+5741,Ice King,Sport route,8c+,8c,downgrade,2.0
+5979,Tjuringa,Multi-pitch,E5,E6,rescale,2.0
+6550,The Lazarus Pit,Boulder problem,8C,8B+,downgrade,1.0
+6603,Hiding in the shadows,Boulder problem,8B,8A+,downgrade,4.0
+6652,Venus in Furs,Sport route,8b+,8c,upgrade,3.0
