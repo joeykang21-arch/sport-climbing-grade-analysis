@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sport grade history — timelines</title>
+<style>
+:root { color-scheme: light; }
+body { margin: 0; background: #fcfcfb; color: #0b0b0b;
+       font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+h1 { font-size: 1.7rem; margin: 0 0 .3rem; }
+h2 { font-size: 1.15rem; margin: 2.2rem 0 .6rem; }
+p  { max-width: 70ch; }
+.muted { color: #52514e; }
+.small { font-size: .85rem; }
+a { color: #2a78d6; }
+nav a { margin-right: 1rem; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; padding: .35rem .6rem;
+         border-bottom: 1px solid #e5e4e0; }
+th { color: #52514e; font-weight: 600; }
+tr:hover td { background: #f2f1ee; }
+.chart { overflow-x: auto; margin: 1rem 0; }
+.tag { display: inline-block; padding: .05rem .5rem; border-radius: 999px;
+       font-size: .78rem; border: 1px solid #e5e4e0; color: #52514e; }
+.tag.up { color: #1a7a4f; border-color: #1a7a4f; }
+.tag.down { color: #b3391f; border-color: #b3391f; }
+.tag.disputed { color: #e34948; border-color: #e34948; }
+ul.pages { list-style: none; padding: 0; }
+ul.pages li { margin: .35rem 0; }
+footer { margin-top: 3rem; font-size: .8rem; color: #52514e; }
+</style>
+</head>
+<body><main>
+
+
+<h1>Sport grade history — interactive timelines</h1>
+<p>One page per grade era from 8a+ (1983) to the present, built from the
+2026-09-09 scrape of climbing-history.org. Grades shown are today's consensus;
+the repo's notebooks carry the parallel <code>as_proposed</code> reading and
+the disputed claims (Akira, Chilam Balam), which these pages exclude.</p>
+<h2>Grade eras</h2><ul class="pages"><li><a href="grade-eras/8a-plus-to-8b.html">The 8a+ era, 1983–1984</a> <span class="muted small">(1 route)</span></li><li><a href="grade-eras/8b-to-8b-plus.html">The 8b era, 1984–1985</a> <span class="muted small">(2 routes)</span></li><li><a href="grade-eras/8b-plus-to-8c.html">The 8b+ era, 1985–1987</a> <span class="muted small">(5 routes)</span></li><li><a href="grade-eras/8c-to-8c-plus.html">The 8c era, 1987–1990</a> <span class="muted small">(5 routes)</span></li><li><a href="grade-eras/8c-plus-to-9a.html">The 8c+ era, 1990–1990</a> <span class="muted small">(1 route)</span></li><li><a href="grade-eras/9a-to-9a-plus.html">The 9a era, 1990–1996</a> <span class="muted small">(7 routes)</span></li><li><a href="grade-eras/9a-plus-to-9b.html">The 9a+ era, 1996–2008</a> <span class="muted small">(18 routes)</span></li><li><a href="grade-eras/9b-to-9b-plus.html">The 9b era, 2008–2012</a> <span class="muted small">(8 routes)</span></li><li><a href="grade-eras/9b-plus-to-9c.html">The 9b+ era, 2012–2017</a> <span class="muted small">(3 routes)</span></li><li><a href="grade-eras/9c-era.html">The 9c era, 2017–present</a> <span class="muted small">(5 routes)</span></li></ul>
+<h2>Upgrades and downgrades within each era</h2>
+<p class="small muted">Reconstructed from the first ascentionist's recorded
+grade suggestion — sparse at the source, so floors, not censuses.</p>
+<ul class="pages"><li><a href="grade-changes/8c-era-upgrades.html">Upgrades of the 8c era</a> <span class="muted small">(3 routes)</span></li><li><a href="grade-changes/8c-plus-era-upgrades.html">Upgrades of the 8c+ era</a> <span class="muted small">(1 route)</span></li><li><a href="grade-changes/9a-era-upgrades.html">Upgrades of the 9a era</a> <span class="muted small">(4 routes)</span></li><li><a href="grade-changes/9a-era-downgrades.html">Downgrades of the 9a era</a> <span class="muted small">(3 routes)</span></li><li><a href="grade-changes/9a-plus-era-upgrades.html">Upgrades of the 9a+ era</a> <span class="muted small">(24 routes)</span></li><li><a href="grade-changes/9a-plus-era-downgrades.html">Downgrades of the 9a+ era</a> <span class="muted small">(4 routes)</span></li><li><a href="grade-changes/9b-era-upgrades.html">Upgrades of the 9b era</a> <span class="muted small">(7 routes)</span></li><li><a href="grade-changes/9b-era-downgrades.html">Downgrades of the 9b era</a> <span class="muted small">(4 routes)</span></li><li><a href="grade-changes/9b-plus-era-upgrades.html">Upgrades of the 9b+ era</a> <span class="muted small">(6 routes)</span></li><li><a href="grade-changes/9b-plus-era-downgrades.html">Downgrades of the 9b+ era</a> <span class="muted small">(5 routes)</span></li><li><a href="grade-changes/9c-era-upgrades.html">Upgrades of the 9c era</a> <span class="muted small">(13 routes)</span></li><li><a href="grade-changes/9c-era-downgrades.html">Downgrades of the 9c era</a> <span class="muted small">(12 routes)</span></li></ul>
+
+<footer>Data: <a href="https://climbing-history.org">climbing-history.org</a>,
+scraped 2026-09-09 &middot; grades shown are today's consensus
+(<code>as_consensus</code>) unless marked &middot; part of
+<a href="https://github.com/joeykang21-arch">sport-grade-history</a></footer>
+</main></body>
+</html>
