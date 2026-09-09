@@ -1,0 +1,275 @@
+climb_id,climb_name,location,grade_clean,proposed_clean,claimed_grade,status,first_climber,first_ascent_date,date_precision,first_ascent_year,num_ascents,first_suggested_grade,is_multipitch,supplement_source,claimed_climber,claimed_date,claim_note,climb_url
+465,Silence,the Flatanger Cave,9c,9c,,unrepeated,Adam Ondra,3rd Sep 2017,day,2017,1,9c,False,,,,,https://climbing-history.org/climb/465
+1901,DNA,La Ramirole,9c,9c,,unrepeated,Seb Bouin,26th Apr 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/1901
+2734,B.I.G,the Flatanger Cave,9c,9c,,unrepeated,Jakob Schubert,20th Sep 2023,day,2023,1,,False,Wikipedia: List of grade milestones in rock climbing,,,,https://climbing-history.org/climb/2734
+5175,Duality of Man,Dry Canyon,9c,9c,,unrepeated,Sean Bailey,6th Mar 2025,day,2025,1,9c,False,,,,,https://climbing-history.org/climb/5175
+3080,Café Colombia,Margalef,9c,9c,,unrepeated,Jorge Díaz-Rullo,13th Mar 2026,day,2026,1,9c,False,,,,,https://climbing-history.org/climb/3080
+469,Change,the Flatanger Cave,9b+,9b+,,consensus,Adam Ondra,4th Oct 2012,day,2012,6,9b+,False,,,,,https://climbing-history.org/climb/469
+470,La Dura Dura,Oliana,9b+,9b+,,consensus,Adam Ondra,7th Feb 2013,day,2013,2,9b+,False,,,,,https://climbing-history.org/climb/470
+472,Vasil Vasil,Sloup,9b+,9b+,,unrepeated,Adam Ondra,4th Dec 2013,day,2013,1,9b+,False,,,,,https://climbing-history.org/climb/472
+471,Perfecto Mundo,Margalef,9b+,9b+,,consensus,Alex Megos,9th May 2018,day,2018,3,,False,,,,,https://climbing-history.org/climb/471
+466,Bibliographie,Céüse,9b+,9b+,,consensus,Alex Megos,5th Aug 2020,day,2020,7,9b+,False,,,,,https://climbing-history.org/climb/466
+1834,Wonderland,Terra Promessa,9b+,9b,,regraded,Adam Ondra,22nd Mar 2022,day,2022,1,9b/9b+,False,,,,,https://climbing-history.org/climb/1834
+2179,Suprême Jumbo Love,Clark Mountain,9b+,9b+,,unrepeated,Seb Bouin,1st Nov 2022,day,2022,1,9b+,False,,,,,https://climbing-history.org/climb/2179
+2211,Zvěřinec,Holštejn,9b+,9b+,,unrepeated,Adam Ondra,20th Nov 2022,day,2022,1,9b+ (hard),False,,,,,https://climbing-history.org/climb/2211
+2384,Excalibur,Drena,9b+,9b+,,consensus,Stefano Ghisolfi,3rd Feb 2023,day,2023,4,9b+,False,,,,,https://climbing-history.org/climb/2384
+2387,Mejorando la Samfaina,Margalef,9b+,9b+,,unrepeated,Jorge Díaz-Rullo,5th Feb 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2387
+3785,Wolf Kingdom,Pic Saint-Loup,9b+,9b+,,unrepeated,Seb Bouin,Nov 2024,month,2024,1,,False,,,,,https://climbing-history.org/climb/3785
+482,Delincuente Natural (extension),Rodellar,9b,9b,,consensus,Dani Andrada,13th Sep 2008,day,2008,2,,False,,,,,https://climbing-history.org/climb/482
+488,Golpe de Estado,Siurana,9b,9b,,consensus,Chris Sharma,17th Dec 2008,day,2008,2,,False,,,,,https://climbing-history.org/climb/488
+490,Jumbo Love,Clark Mountain,9b,9b,,consensus,Chris Sharma,11th Sep 2008,day,2008,4,,False,,,,,https://climbing-history.org/climb/490
+496,Neanderthal,Santa Linya,9b,9b,,consensus,Chris Sharma,18th Dec 2009,day,2009,4,9b,False,,,,,https://climbing-history.org/climb/496
+479,Chaxiraxi,Oliana,9b,9b,,unrepeated,Adam Ondra,27th Mar 2011,day,2011,1,,False,,,,,https://climbing-history.org/climb/479
+486,Fight or Flight,Oliana,9b,9b,,consensus,Chris Sharma,5th May 2011,day,2011,6,,False,,,,,https://climbing-history.org/climb/486
+487,"First Round, First Minute",Margalef,9b,9b,,consensus,Chris Sharma,19th Apr 2011,day,2011,5,9b (hard),False,,,,,https://climbing-history.org/climb/487
+492,La Planta de Shiva,Villanueva del Rosario,9b,9b,,consensus,Adam Ondra,7th Apr 2011,day,2011,9,,False,,,,,https://climbing-history.org/climb/492
+474,Move,the Flatanger Cave,9b,9b,,consensus,Adam Ondra,20th Aug 2013,day,2013,6,9b/9b+,False,,,,,https://climbing-history.org/climb/474
+502,Stoking the Fire,Santa Linya,9b,9b,,consensus,Chris Sharma,6th Feb 2013,day,2013,8,9b,False,,,,,https://climbing-history.org/climb/502
+1263,Peruvian Necktie,Poptire Cave,9b,9a+,,regraded,James Litz,Oct 2013,month,2013,2,9a+,False,,,,,https://climbing-history.org/climb/1263
+480,C.R.S.,Mollans,9b,9b,,unrepeated,Adam Ondra,2nd Nov 2015,day,2015,1,,False,,,,,https://climbing-history.org/climb/480
+564,El Bon Combat,Cova de L'Ocell,9b,9b,,consensus,Chris Sharma,7th Mar 2015,day,2015,5,9b/9b+,False,,,,,https://climbing-history.org/climb/564
+485,Fight Club,Raven's Crag,9b,9b,,unrepeated,Alex Megos,14th Aug 2016,day,2016,1,,False,,,,,https://climbing-history.org/climb/485
+499,Robin Úd,Alternatívna Stena,9b,9b,,unrepeated,Adam Ondra,5th Oct 2016,day,2016,1,,False,,,,,https://climbing-history.org/climb/499
+4,Rainman,Malham Cove,9b,9b,,consensus,Steve McClure,4th Jun 2017,day,2017,3,9b,False,,,,,https://climbing-history.org/climb/4
+494,Mamichula,Oliana,9b,9b,,consensus,Adam Ondra,2nd Feb 2017,day,2017,2,,False,,,,,https://climbing-history.org/climb/494
+495,Move Hard,the Flatanger Cave,9b,9b,,consensus,Adam Ondra,10th Jul 2017,day,2017,3,9b,False,,,,,https://climbing-history.org/climb/495
+497,One Slap,Monte Colodri,9b,9b,,consensus,Adam Ondra,13th Nov 2017,day,2017,2,,False,,,,,https://climbing-history.org/climb/497
+498,Queen Line,Monte Colodri,9b,9b,,consensus,Adam Ondra,18th Apr 2017,day,2017,2,,False,,,,,https://climbing-history.org/climb/498
+2919,Clash of the Titans,Götterwandl,9b,9a+,,regraded,Alex Megos,17th Jun 2017,day,2017,3,9a+,False,,,,,https://climbing-history.org/climb/2919
+483,Disbelief,Acephale,9b,9b,,unrepeated,Adam Ondra,20th Jul 2018,day,2018,1,9b (hard),False,,,,,https://climbing-history.org/climb/483
+484,Eagle-4,Saint Léger,9b,9b,,consensus,Adam Ondra,13th Feb 2018,day,2018,4,9b,False,,,,,https://climbing-history.org/climb/484
+491,La Barrière,Jansegg,9b,9b,,unrepeated,Pirmin Bertle,26th Aug 2018,day,2018,1,,False,,,,,https://climbing-history.org/climb/491
+500,Soul Mate,Gozen Iwa,9b,9b,,consensus,Sachi Amma,25th Mar 2018,day,2018,2,9b (soft),False,,,,,https://climbing-history.org/climb/500
+504,Les Yeux Plus Gros que l'Antre,Russan,9b,9b,,unrepeated,Seb Bouin,11th May 2018,day,2018,1,,False,,,,,https://climbing-history.org/climb/504
+1572,Artaburu,Margalef,9b,9b,,unrepeated,Iker Pou,Dec 2018,month,2018,1,,False,,,,,https://climbing-history.org/climb/1572
+503,The Dream,Brar,9b,9b,,unrepeated,Seb Bouin,16th Dec 2019,day,2019,1,,False,,,,,https://climbing-history.org/climb/503
+669,Obsession,Orgon,9b,9b,,unrepeated,Loïc Zehani,7th Oct 2019,day,2019,1,,False,,,,,https://climbing-history.org/climb/669
+481,Cryptography,Saint-Loup,9b,9b,,unrepeated,Alessandro Zeni,11th Jan 2020,day,2020,1,,False,,,,,https://climbing-history.org/climb/481
+501,Soul Rock Dance,Jongjasan,9b,9b,,unrepeated,Hyunbin Min,29th Sep 2020,day,2020,1,,False,,,,,https://climbing-history.org/climb/501
+549,Madame Ching,Privatklettergarten,9b,9b,,unrepeated,Angela Eiter,16th Dec 2020,day,2020,1,,False,,,,,https://climbing-history.org/climb/549
+836,Beyond Integral,Pic Saint-Loup,9b,9b,,unrepeated,Seb Bouin,22nd Oct 2020,day,2020,1,9b/9b+,False,,,,,https://climbing-history.org/climb/836
+678,Erebor,Eremo,9b,9b,,consensus,Stefano Ghisolfi,11th Jan 2021,day,2021,9,9b/9b+,False,,,,,https://climbing-history.org/climb/678
+1108,King Capella,Siurana,9b,9b+,,regraded,Will Bosi,9th Mar 2021,day,2021,3,9b+,False,,,,,https://climbing-history.org/climb/1108
+1262,Picacho,Rodellar,9b,9b,,unrepeated,Jonatan Flor,22nd May 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/1262
+1567,Café Solo,Margalef,9b,9b,,unrepeated,Jorge Díaz-Rullo,1st Nov 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/1567
+1711,The Lonely Mountain,Eremo,9b,9b,,consensus,Stefano Ghisolfi,17th Dec 2021,day,2021,2,9b,False,,,,,https://climbing-history.org/climb/1711
+1737,Taurus,"Býčí Skála, Moravský kras",9b,9b,,unrepeated,Adam Ondra,23rd Dec 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/1737
+3111,El Picacho,Rodellar,9b,9b,,consensus,Jonatan Flor,2021,year,2021,2,9b,False,,,,,https://climbing-history.org/climb/3111
+1796,L'Arenauta,Grotta Dell'Arenauta,9b,9b,,unrepeated,Stefano Ghisolfi,8th Feb 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/1796
+1812,Bomba,Bus de la Stria,9b,9b,,unrepeated,Adam Ondra,28th Feb 2022,day,2022,1,9b (hard),False,,,,,https://climbing-history.org/climb/1812
+1885,Chikane,Orgon,9b,9b,,unrepeated,Loïc Zehani,16th Apr 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/1885
+1920,Event Horizon,5G,9b,9b,,unrepeated,Jonathan Siegrist,18th May 2022,day,2022,1,9b,False,,,,,https://climbing-history.org/climb/1920
+1986,Nordic Marathon,the Flatanger Cave,9b,9b,,unrepeated,Seb Bouin,25th Jul 2022,day,2022,1,9b/9b+,False,,,,,https://climbing-history.org/climb/1986
+2011,La Vie,Rodellar,9b,9b,,unrepeated,Jonatan Flor,Aug 2022,month,2022,1,,False,,,,,https://climbing-history.org/climb/2011
+2095,Harlem,Orgon,9b,9b,,unrepeated,Loïc Zehani,23rd Sep 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/2095
+2117,The Full Journey,Margalef,9b,9b,,consensus,Alex Megos,5th Oct 2022,day,2022,5,,False,,,,,https://climbing-history.org/climb/2117
+3110,The Lord of Darkness,Drittlsond,9b,9b,,unrepeated,Alexander Feichter,15th Feb 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/3110
+2442,Brooklyn,Orgon,9b,9b,,unrepeated,Loïc Zehani,15th Mar 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2442
+2449,Sleeping Lion,Siurana,9b,9b+,,regraded,Chris Sharma,28th Mar 2023,day,2023,5,9b+,False,,,,,https://climbing-history.org/climb/2449
+2459,Ariégeois Cœur Loyal,Pic Saint-Loup,9b,9b,,unrepeated,Seb Bouin,7th Apr 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2459
+2474,Mossoul,Orgon,9b,9b,,unrepeated,Loïc Zehani,17th Apr 2023,day,2023,1,9b/9b+,False,,,,,https://climbing-history.org/climb/2474
+2541,Fantasia,Les Petits Goulets,9b,9b,,unrepeated,Cédric Lachat,May 2023,month,2023,1,,False,,,,,https://climbing-history.org/climb/2541
+2701,Jamming Destruction,Saint Auban,9b,9b,,unrepeated,Seb Bouin,Aug 2023,month,2023,1,,False,,,,,https://climbing-history.org/climb/2701
+2757,B je to!,Vranjača,9b,9b,,unrepeated,Adam Ondra,28th Sep 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2757
+2800,Quartiers Nord,Orgon,9b,9b,,unrepeated,Loïc Zehani,18th Oct 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2800
+2849,Wind Up Bird,the Fortress of Solitude,9b,9b,,unrepeated,Jon Cardwell,11th Nov 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2849
+3381,Hannigraal,L'Abattoir,9b,9b,,unrepeated,Tanguy Merard,9th Apr 2024,day,2024,1,,False,,,,,https://climbing-history.org/climb/3381
+3398,Les Rois du Lithium,Pic Saint-Loup,9b,9b,,unrepeated,Seb Bouin,Apr 2024,month,2024,1,,False,,,,,https://climbing-history.org/climb/3398
+3439,Anemology,Utah Hills,9b,9b,,unrepeated,Jonathan Siegrist,21st May 2024,day,2024,1,9b,False,,,,,https://climbing-history.org/climb/3439
+8319,Harder Better Faster Stronger,Orgon,9b,9b,,unrepeated,Loïc Zehani,27th Nov 2024,day,2024,1,,False,,,,,https://climbing-history.org/climb/8319
+4492,Tuareg Blanco,Margalef,9b,9b,,unrepeated,Alex Megos,14th Jan 2025,day,2025,1,9b/9b+,False,,,,,https://climbing-history.org/climb/4492
+4716,El Gran Cabrón,Shegeng,9b,9b,,unrepeated,Seb Bouin,2025,year,2025,1,9b,False,,,,,https://climbing-history.org/climb/4716
+5170,Le Bruit de l’Acid,Claret,9b,9b,,consensus,Jules Marchaland,22nd Apr 2025,day,2025,2,,False,,,,,https://climbing-history.org/climb/5170
+5308,Vidra la Vida,Lučišća,9b,9b,,unrepeated,Seb Bouin,2025,year,2025,1,9b/9b+,False,,,,,https://climbing-history.org/climb/5308
+5827,Abaporu,Serra do Cipó,9b,9b,,unrepeated,Felipe Camargo,Before 9th Sep 2025,upper-bound,2025,1,9b,False,,,,,https://climbing-history.org/climb/5827
+6118,Sistema de Creenicas,Rodellar,9b,9b,,unrepeated,Jonatan Flor,Before 3rd Oct 2025,upper-bound,2025,1,,False,,,,,https://climbing-history.org/climb/6118
+6388,Sin Picasso,Rodellar,9b,9b,,unrepeated,Jonatan Flor,Before 11th Nov 2025,upper-bound,2025,1,,False,,,,,https://climbing-history.org/climb/6388
+7411,Le Chant des Muses,Romeyer,9b,9b,,unrepeated,Seb Bouin,Before 10th Apr 2026,upper-bound,2026,1,,False,,,,,https://climbing-history.org/climb/7411
+7853,Big Bone,the Fynn Cave,9b,9b,,unrepeated,Cameron Hörst,27th May 2026,day,2026,1,,False,,,,,https://climbing-history.org/climb/7853
+473,La Rage d'Adam,La Ramirole,9b,9b,,unrepeated,,,,,1,,False,,,,,https://climbing-history.org/climb/473
+1991,Ratstaman Vibrations,Céüse,9b,9b,,consensus,,,,,3,,False,,,,,https://climbing-history.org/climb/1991
+3045,The Flame,Little Flatanger,9b,9b,,unrepeated,Jakob Schubert,20th September 2023-1st January 2024,day,,1,9b (hard),False,,,,,https://climbing-history.org/climb/3045
+3273,E.L.L.I.E,Margalef,9b,9b,,unrepeated,Tom Bolger,1st January-13th March 2024,day,,1,,False,,,,,https://climbing-history.org/climb/3273
+4932,Le Bombé Bleu,Buoux,9b,9b,,unrepeated,,,,,1,,False,,,,,https://climbing-history.org/climb/4932
+512,Open Air,Schleierwasserfall,9a+,9a,,regraded,Alexander Huber,6th Dec 1996,day,1996,2,9a,False,,,,,https://climbing-history.org/climb/512
+1194,Qui,Geisterschmiedwand,9a+,8c+,,regraded,Stefan Fürst,1996,year,1996,5,8c+/9a,False,,,,,https://climbing-history.org/climb/1194
+392,Mutation,Raven Tor,9a+,9a,,regraded,Steve McClure,14th Oct 1998,day,1998,2,9a,False,,,,,https://climbing-history.org/climb/392
+513,Biographie,Céüse,9a+,9a+,,consensus,Chris Sharma,18th Jul 2001,day,2001,21,,False,,,,,https://climbing-history.org/climb/513
+1781,La Chimère des Hauteurs L2,Saint-Loup,9a+,9a+,,unrepeated,Fred Nicole,2002,year,2002,1,,False,,,,,https://climbing-history.org/climb/1781
+3849,Iñi Ameriketan,Baltzola,9a+,9a,,regraded,Rikar Otegi,10th May 2002,day,2002,6,9a,False,,,,,https://climbing-history.org/climb/3849
+514,La Rambla,Siurana,9a+,9a+,,consensus,Ramón Julián Puigblanque,8th Mar 2003,day,2003,21,9a+,False,,,,,https://climbing-history.org/climb/514
+1325,Flex Luthor,the Fortress of Solitude,9a+,9a+,,consensus,Tommy Caldwell,2003,year,2003,6,9a+,False,,,,,https://climbing-history.org/climb/1325
+810,Bimbaluna,Saint-Loup,9a+,9a,,regraded,François Nicole,Mar 2004,month,2004,4,9a/9a+,False,,,,,https://climbing-history.org/climb/810
+1316,La Novena Enmienda,Santa Linya,9a+,9a+,,consensus,Dani Andrada,16th Apr 2005,day,2005,5,,False,,,,,https://climbing-history.org/climb/1316
+1570,Corona,Schneiderloch,9a+,9a+,,consensus,Markus Bock,2006,year,2006,8,,False,,,,,https://climbing-history.org/climb/1570
+389,Overshadow,Malham Cove,9a+,9a+,,consensus,Steve McClure,23rd May 2007,day,2007,2,,False,,,,,https://climbing-history.org/climb/389
+477,Ali Hulk (extension sit start),Rodellar,9a+,9b,,regraded,Dani Andrada,8th Nov 2007,day,2007,4,9b,False,,,,,https://climbing-history.org/climb/477
+1327,Salamandre,Double Cache,9a+,9a+,,consensus,Fred Rouhling,2007,year,2007,2,,False,,,,,https://climbing-history.org/climb/1327
+1849,Three Degrees of Separation,Céüse,9a+,9a,,regraded,Chris Sharma,15th Jul 2007,day,2007,7,9a,False,,,,,https://climbing-history.org/climb/1849
+2005,Jaws II,Rumney,9a+,9a+,,consensus,Vasya Vorotnikov,14th Oct 2007,day,2007,5,,False,,,,,https://climbing-history.org/climb/2005
+860,Papichulo,Oliana,9a+,9a+,,consensus,Chris Sharma,31st May 2008,day,2008,19,,False,,,,,https://climbing-history.org/climb/860
+2489,Open Your Mind Direct R2,Santa Linya,9a+,9a+,,unrepeated,Ramón Julián Puigblanque,8th Dec 2008,day,2008,1,,False,,,,,https://climbing-history.org/climb/2489
+2491,Punt'X,the Gorges du Loup,9a+,9a+,,consensus,Alex Chabot,Before 26th Oct 2008,upper-bound,2008,5,,False,,,,,https://climbing-history.org/climb/2491
+3346,Víctima Perfecta,Margalef,9a+,8c+,,regraded,Ramón Julián Puigblanque,23rd Aug 2008,day,2008,3,8c+,False,,,,,https://climbing-history.org/climb/3346
+1323,Demencia Senil,Margalef,9a+,9a+,,consensus,Chris Sharma,Feb 2009,month,2009,8,,False,,,,,https://climbing-history.org/climb/1323
+1620,Eternit,Baule,9a+,9a,,regraded,Maurizio Zanolla,24th Aug 2009,day,2009,2,9a,False,,,,,https://climbing-history.org/climb/1620
+1717,Pachamama,Oliana,9a+,9a+,,consensus,Chris Sharma,29th May 2009,day,2009,7,,False,,,,,https://climbing-history.org/climb/1717
+3090,Sachidananda,Orgon,9a+,9a,,regraded,Gérome Pouvreau,27th May 2009,day,2009,4,9a/9a+,False,,,,,https://climbing-history.org/climb/3090
+3267,Marina Superstar,Domusnovas Area,9a+,9a+,,unrepeated,Adam Ondra,20th Oct 2009,day,2009,1,9a+/9b,False,,,,,https://climbing-history.org/climb/3267
+43,First Ley,Margalef,9a+,9a+,,consensus,Chris Sharma,28th Feb 2010,day,2010,14,,False,,,,,https://climbing-history.org/climb/43
+1695,Power Inverter,Oliana,9a+,9a+,,consensus,Chris Sharma,2010,year,2010,5,,False,,,,,https://climbing-history.org/climb/1695
+3272,L'étrange Ivresse des Lenteurs,Céüse,9a+,9a+,,consensus,Adam Ondra,4th Sep 2010,day,2010,3,9a+,False,,,,,https://climbing-history.org/climb/3272
+3955,Goldrake,Cornalba,9a+,9a,,regraded,Adam Ondra,6th Apr 2010,day,2010,3,9a,False,,,,,https://climbing-history.org/climb/3955
+6454,One Punch,Monte Colodri,9a+,9a+,,unrepeated,Stefano Ghisolfi,2010,year,2010,1,,False,,,,,https://climbing-history.org/climb/6454
+42,La Capella,Siurana,9a+,9a+,,consensus,Adam Ondra,16th Feb 2011,day,2011,6,9a+,False,,,,,https://climbing-history.org/climb/42
+394,Catxasa,Santa Linya,9a+,9a+,,consensus,Chris Sharma,2011,year,2011,10,,False,,,,,https://climbing-history.org/climb/394
+1694,Chaxi,Oliana,9a+,9a+,,consensus,Adam Ondra,21st Mar 2011,day,2011,4,,False,,,,,https://climbing-history.org/climb/1694
+2415,La Moustache Qui Fâche,Entraygues,9a+,9a+,,consensus,Enzo Oddo,2011,year,2011,11,,False,,,,,https://climbing-history.org/climb/2415
+3292,Obrint el Sistema,Santa Ana,9a+,9a+,,unrepeated,Adam Ondra,14th Mar 2011,day,2011,1,9a+ (soft),False,,,,,https://climbing-history.org/climb/3292
+3293,La Madone,Supermarché,9a+,9a+,,consensus,Gérome Pouvreau,2011,year,2011,3,,False,,,,,https://climbing-history.org/climb/3293
+3294,Perlorodka,Lidomorna,9a+,9a+,,unrepeated,Adam Ondra,6th Sep 2011,day,2011,1,,False,,,,,https://climbing-history.org/climb/3294
+1573,Nit de Bruixes,Margalef,9a+,9a+,,consensus,Iker Pou,2012,year,2012,2,,False,,,,,https://climbing-history.org/climb/1573
+1941,Jungle Boogie,Céüse,9a+,9a+,,consensus,Adam Ondra,5th Jun 2012,day,2012,8,9a+,False,,,,,https://climbing-history.org/climb/1941
+3969,Change P1,the Flatanger Cave,9a+,9a+,,consensus,Adam Ondra,25th Jul 2012,day,2012,8,,False,,,,,https://climbing-history.org/climb/3969
+5877,Tinipi,"Donkey's Ears, Gunung Kinabalu",9a+,9a+,,consensus,Daniel Woods,25th Jun 2012,day,2012,2,,False,,,,,https://climbing-history.org/climb/5877
+8286,Balkon Projekt,Plombergstein,9a+,9a+,,consensus,Klem Loskot,Before 18th Nov 2012,upper-bound,2012,2,,False,,,,,https://climbing-history.org/climb/8286
+8287,Rehabilitation,Plombergstein,9a+,9a+,,consensus,Klem Loskot,Before 8th Dec 2012,upper-bound,2012,2,,False,,,,,https://climbing-history.org/climb/8287
+489,Iron Curtain,the Flatanger Cave,9a+,9b,,regraded,Adam Ondra,3rd Aug 2013,day,2013,3,9b,False,,,,,https://climbing-history.org/climb/489
+1193,Mejorando Imagen,Margalef,9a+,9a,,regraded,Ramón Julián Puigblanque,26th Jul 2013,day,2013,5,9a,False,,,,,https://climbing-history.org/climb/1193
+1951,Selecció Anal,Santa Linya,9a+,9a+,,consensus,Ramón Julián Puigblanque,21st Dec 2013,day,2013,5,,False,,,,,https://climbing-history.org/climb/1951
+2152,Red Ram,Cova de L'Arcadia,9a+,9a+,,consensus,Ramón Julián Puigblanque,30th Aug 2013,day,2013,4,,False,,,,,https://climbing-history.org/climb/2152
+3043,Kangaroo's Limb,the Flatanger Cave,9a+,9a+,,consensus,Adam Ondra,21st Sep 2013,day,2013,8,,False,,,,,https://climbing-history.org/climb/3043
+7164,Hell Racer,Hell,9a+,9a+,,unrepeated,Adam Ondra,22nd Sep 2013,day,2013,1,,False,,,,,https://climbing-history.org/climb/7164
+5270,Modified,Holzgauer Wand,9a+,9a+,,consensus,Alex Megos,Jun 2014,month,2014,4,,False,,,,,https://climbing-history.org/climb/5270
+493,Lapsus,Andonno,9a+,9a+,,consensus,Stefano Ghisolfi,2nd Nov 2015,day,2015,9,9a+,False,,,,,https://climbing-history.org/climb/493
+565,Supernova,Planetarium,9a+,9a+,,unrepeated,Alex Megos,2nd Oct 2015,day,2015,1,,False,,,,,https://climbing-history.org/climb/565
+2455,Le Play Boy Rôde Sans Complexe,Lourmarin,9a+,9a+,,consensus,Seb Bouin,2015,year,2015,3,,False,,,,,https://climbing-history.org/climb/2455
+3038,Big Men,Fraguel,9a+,9a+,,unrepeated,Iker Pou,29th Apr 2015,day,2015,1,,False,,,,,https://climbing-history.org/climb/3038
+4517,Deep Spot,La Balme de Yenne,9a+,9a+,,consensus,Mathieu Bouyoud,8th Aug 2015,day,2015,2,,False,,,,,https://climbing-history.org/climb/4517
+7391,Companion of Change,Bergstation,9a+,9a,,regraded,Jakob Schubert,17th Nov 2015,day,2015,2,9a (hard),False,,,,,https://climbing-history.org/climb/7391
+7690,Des Scènes Bizzares Dans la Mine D'Or,Jansegg,9a+,9a+,,unrepeated,Pirmin Bertle,27th Aug 2015,day,2015,1,,False,,,,,https://climbing-history.org/climb/7690
+464,Super Crackinette,Saint Léger,9a+,9a+,,consensus,Alex Megos,Oct 2016,month,2016,13,,False,,,,,https://climbing-history.org/climb/464
+1489,Joe Mama,Oliana,9a+,9a+,,consensus,Klemen Bečan,1st Mar 2016,day,2016,6,,False,,,,,https://climbing-history.org/climb/1489
+2058,Hyper Finale,Rawyl,9a+,9a+,,consensus,Adam Ondra,17th Jul 2016,day,2016,3,,False,,,,,https://climbing-history.org/climb/2058
+2104,Bone Tomahawk,the Fynn Cave,9a+,9a,,regraded,Joe Kinder,28th Oct 2016,day,2016,7,9a/9a+,False,,,,,https://climbing-history.org/climb/2104
+2424,Maya,Margalef,9a+,9a+,,consensus,Ramón Julián Puigblanque,2016,year,2016,2,,False,,,,,https://climbing-history.org/climb/2424
+3281,Vicious Circle,Mišja Peč,9a+,9a+,,consensus,Adam Ondra,25th Mar 2016,day,2016,2,9a+/9b,False,,,,,https://climbing-history.org/climb/3281
+6011,Ultimatum,Massone,9a+,9a+,,consensus,Stefano Ghisolfi,19th Dec 2016,day,2016,4,,False,,,,,https://climbing-history.org/climb/6011
+7643,120 Degrees,the Flatanger Cave,9a+,9a+,,unrepeated,Adam Ondra,19th Jun 2016,day,2016,1,,False,,,,,https://climbing-history.org/climb/7643
+861,Sweet Neuf,Pierrot Beach,9a+,9a+,,unrepeated,Anak Verhoeven,Sep 2017,month,2017,1,,False,,,,,https://climbing-history.org/climb/861
+1499,La Cène du Roi Lézard,Jansegg,9a+,9a+,,consensus,Pirmin Bertle,2017,year,2017,2,9a+,False,,,,,https://climbing-history.org/climb/1499
+2153,No Pain No Gain,Rodellar,9a+,9a+,,consensus,Dani Fuertes,6th Jun 2017,day,2017,7,,False,,,,,https://climbing-history.org/climb/2153
+2168,"Me, I Eat Dust",,9a+,9a+,,consensus,Cody Roth,Feb 2017,month,2017,2,,False,,,,,https://climbing-history.org/climb/2168
+4301,Maturity,Gozen Iwa,9a+,9a+,,consensus,Sachi Amma,20th Dec 2017,day,2017,4,9a+,False,,,,,https://climbing-history.org/climb/4301
+7642,Thor's Hammer 2,the Flatanger Cave,9a+,9a+,,unrepeated,Adam Ondra,16th Sep 2017,day,2017,1,9a+ (hard),False,,,,,https://climbing-history.org/climb/7642
+8020,Naturalmente,Camaiore,9a+,9a+,,consensus,Adam Ondra,21st Apr 2017,day,2017,3,9a+ (hard),False,,,,,https://climbing-history.org/climb/8020
+8318,Jamais Deux Sans Toit,Mollans,9a+,9a+,,consensus,Daniel Jung,22nd Nov 2017,day,2017,2,9a+ (hard),False,,,,,https://climbing-history.org/climb/8318
+859,Puro Dreaming Plus,Massone,9a+,9a+,,consensus,Adam Ondra,24th Feb 2018,day,2018,2,,False,,,,,https://climbing-history.org/climb/859
+1843,Ace of Spades,Poptire Cave,9a+,9a+,,consensus,James Litz,Before 18th Oct 2018,upper-bound,2018,5,,False,,,,,https://climbing-history.org/climb/1843
+2244,La Castagne,Saint Léger,9a+,9a+,,consensus,Adam Ondra,2nd Feb 2018,day,2018,4,9a+,False,,,,,https://climbing-history.org/climb/2244
+2416,Les Yeux Plus Gros Que Les Roubignoles,Russan,9a+,9a+,,consensus,Seb Bouin,3rd Apr 2018,day,2018,2,,False,,,,,https://climbing-history.org/climb/2416
+3305,Stone Butterfly,Băile Herculane,9a+,9a+,,consensus,Adam Ondra,15th May 2018,day,2018,2,,False,,,,,https://climbing-history.org/climb/3305
+4008,Sacrifice,Echo Canyon,9a+,9a+,,consensus,Adam Ondra,23rd Jul 2018,day,2018,2,,False,,,,,https://climbing-history.org/climb/4008
+4294,Sho-,Futagoyama,9a+,9a+,,unrepeated,Sachi Amma,15th Nov 2018,day,2018,1,,False,,,,,https://climbing-history.org/climb/4294
+476,Ali Hulk (extension total sit start),Rodellar,9a+,9a+,,consensus,Jonatan Flor,29th Jul 2019,day,2019,8,,False,,,,,https://climbing-history.org/climb/476
+1260,Patanics,Rodellar,9a+,9a+,,consensus,Jorge Díaz-Rullo,26th Aug 2019,day,2019,6,9a+,False,,,,,https://climbing-history.org/climb/1260
+2167,All You Can Eat,Mount Potosi,9a+,9a+,,unrepeated,Jonathan Siegrist,28th Mar 2019,day,2019,1,,False,,,,,https://climbing-history.org/climb/2167
+2987,Beyond,Pic Saint-Loup,9a+,9a,,regraded,Seb Bouin,26th May 2019,day,2019,6,9a,False,,,,,https://climbing-history.org/climb/2987
+3112,Apocalipsis de la Gioconda,Rodellar,9a+,9b,,regraded,Jonatan Flor,26th Aug 2019,day,2019,4,9b,False,,,,,https://climbing-history.org/climb/3112
+1261,Las Meninas R2,Rodellar,9a+,9a+,,consensus,Jorge Díaz-Rullo,16th Aug 2020,day,2020,4,9a+/9b,False,,,,,https://climbing-history.org/climb/1261
+1921,Nu World,5G,9a+,9a+,,unrepeated,Jonathan Siegrist,7th Oct 2020,day,2020,1,,False,,,,,https://climbing-history.org/climb/1921
+2578,Full Metal Brisket,Summersville Lake,9a+,9a+,,consensus,Jonathan Siegrist,29th Nov 2020,day,2020,3,,False,,,,,https://climbing-history.org/climb/2578
+4362,Mona Lisa Integral,Rodellar,9a+,9a+,,consensus,Jose Luis Palao,14th Jun 2020,day,2020,6,9a+,False,,,,,https://climbing-history.org/climb/4362
+5121,Beginning,Eremo,9a+,9a+,,consensus,Stefano Ghisolfi,22nd May 2020,day,2020,6,9a+,False,,,,,https://climbing-history.org/climb/5121
+6453,The Bow,Padaro,9a+,9a+,,consensus,Stefano Ghisolfi,12th Jul 2020,day,2020,2,,False,,,,,https://climbing-history.org/climb/6453
+8117,Les Enfants Gâtés,Céüse,9a+,9a+,,unrepeated,Nico Pelorson,Jul 2020,month,2020,1,,False,,,,,https://climbing-history.org/climb/8117
+1109,La Furia de Jabali,Siurana,9a+,9b,,regraded,Will Bosi,4th Feb 2021,day,2021,10,9b,False,,,,,https://climbing-history.org/climb/1109
+1181,Terapia d'urto,Padaro,9a+,9a+,,consensus,Stefano Ghisolfi,21st Mar 2021,day,2021,3,,False,,,,,https://climbing-history.org/climb/1181
+1534,Kinder Cakes,Rifle,9a+,9a+,,consensus,Joe Kinder,6th Oct 2021,day,2021,3,9a+,False,,,,,https://climbing-history.org/climb/1534
+1554,Molekuly,"Býčí Skála, Moravský kras",9a+,9a+,,unrepeated,Adam Ondra,26th Oct 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/1554
+1719,Kout Pikle,"Býčí Skála, Moravský kras",9a+,9a+,,unrepeated,Adam Ondra,18th Dec 2021,day,2021,1,9a+/9b,False,,,,,https://climbing-history.org/climb/1719
+2177,Guggen-Hell,El Museo,9a+,9a+,,unrepeated,Iker Pou,Feb 2021,month,2021,1,,False,,,,,https://climbing-history.org/climb/2177
+3109,Líder Ibérico,Cuenca,9a+,9a+,,unrepeated,Alex Garriga,23rd Apr 2021,day,2021,1,9a+/9b,False,,,,,https://climbing-history.org/climb/3109
+3750,Chiroptera,Súľov,9a+,9a+,,consensus,Michal Mikušínec,2021,year,2021,2,,False,,,,,https://climbing-history.org/climb/3750
+4179,La Danse de Résistance,Soyhières,9a+,9a+,,consensus,Dimitri Vogt,29th Oct 2021,day,2021,2,,False,,,,,https://climbing-history.org/climb/4179
+4516,Team Frisouille,La Balme de Yenne,9a+,9a+,,unrepeated,Mathieu Bouyoud,18th Sep 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/4516
+6933,Ten,Vado di Sole,9a+,9a+,,unrepeated,Elias Iagnemma,20th Jan 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/6933
+6934,Ultimo Tango a Zagarolo,Grotti,9a+,9a+,,consensus,Elias Iagnemma,Before 20th Jan 2021,upper-bound,2021,2,,False,,,,,https://climbing-history.org/climb/6934
+8040,X-Drive,Jesuswandl,9a+,9a+,,unrepeated,Manuel Brunn,21st Oct 2021,day,2021,1,,False,,,,,https://climbing-history.org/climb/8040
+8228,Zeleputza,Eugino,9a+,9a+,,consensus,Jonatan Flor,Aug 2021,month,2021,3,,False,,,,,https://climbing-history.org/climb/8228
+1798,Trofeo dell’Adriatico,Bus de la Stria,9a+,9a+,,consensus,Gabriele Moroni,10th Jan 2022,day,2022,6,,False,,,,,https://climbing-history.org/climb/1798
+1816,Myr,Secteur Canyon,9a+,9a+,,unrepeated,Seb Bouin,Mar 2022,month,2022,1,,False,,,,,https://climbing-history.org/climb/1816
+1845,Close Encounters,La Madre North,9a+,9a+,,unrepeated,Jonathan Siegrist,11th Feb 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/1845
+1851,The Meltdown Direct,Twll Mawr,9a+,9a+,,unrepeated,Franco Cookson,Apr 2022,month,2022,1,,False,,,,,https://climbing-history.org/climb/1851
+1866,Bombardino,Bus de la Stria,9a+,9a+,,consensus,Adam Ondra,23rd Feb 2022,day,2022,7,9a+/9b,False,,,,,https://climbing-history.org/climb/1866
+1878,Mamajama,,9a+,9a+,,unrepeated,Joe Kinder,14th Apr 2022,day,2022,1,,False,,,,,https://climbing-history.org/climb/1878
+1962,Free at Last,Dumbarton Rock,9a+,9a+,,unrepeated,Will Bosi,25th Jun 2022,day,2022,1,9a+,False,,,,,https://climbing-history.org/climb/1962
+2106,Picasso,Rodellar,9a+,9a+,,unrepeated,Jonatan Flor,Sep 2022,month,2022,1,,False,,,,,https://climbing-history.org/climb/2106
+2118,The Journey,Margalef,9a+,9a+,,consensus,Tom Bolger,Apr 2022,month,2022,6,,False,,,,,https://climbing-history.org/climb/2118
+2119,Excelsior,Foz De Zafrané,9a+,9a+,,unrepeated,Dani Fuertes,Oct 2022,month,2022,1,,False,,,,,https://climbing-history.org/climb/2119
+2181,Pink Patatas,La Bisbal de Falset,9a+,9a+,,consensus,Alex Megos,Oct 2022,month,2022,3,,False,,,,,https://climbing-history.org/climb/2181
+2185,Semantics,University Wall,9a+,9a+,,unrepeated,Miles Adamson,2022,year,2022,1,,False,,,,,https://climbing-history.org/climb/2185
+2213,Chan Chan Bastards,Margalef,9a+,9a+,,consensus,Alex Megos,Oct 2022,month,2022,2,9a+/9b,False,,,,,https://climbing-history.org/climb/2213
+2241,Lazarus,Schiefer Tod,9a+,9a+,,consensus,Moritz Welt,23rd Nov 2022,day,2022,3,,False,,,,,https://climbing-history.org/climb/2241
+2270,Chicken Deluxe,Manjo-Carn,9a+,9a+,,consensus,Lucien Martinez,Nov 2022,month,2022,2,9a+,False,,,,,https://climbing-history.org/climb/2270
+5319,Hard Twisted,Wolf Point,9a+,9a+,,consensus,B.J. Tilden,13th Jun 2022,day,2022,2,,False,,,,,https://climbing-history.org/climb/5319
+2579,Martial Law,Mount Charleston,9a+,9a+,,consensus,Cameron Hörst,11th Jun 2023,day,2023,4,,False,,,,,https://climbing-history.org/climb/2579
+2677,Hump of Trouble,Medlow Bath,9a+,9a+,,unrepeated,Tom O'Halloran,8th Aug 2023,day,2023,1,9a+,False,,,,,https://climbing-history.org/climb/2677
+2678,Hartkäse,Bomaderry Creek,9a+,9a+,,unrepeated,Ryan Sklenica,4th Aug 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2678
+2706,A je to!,Vranjača,9a+,9a,,regraded,Adam Ondra,31st Aug 2023,day,2023,1,9a/9a+,False,,,,,https://climbing-history.org/climb/2706
+2712,Auto Retrato,Serra do Cipó,9a+,9a+,,unrepeated,Felipe Camargo,4th Sep 2023,day,2023,1,9a+,False,,,,,https://climbing-history.org/climb/2712
+2770,Fantazija,Ter,9a+,9a+,,unrepeated,Adam Ondra,1st Oct 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2770
+2816,The Dewin Stone,Twll Mawr,9a+,9a+,,unrepeated,Franco Cookson,26th Oct 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2816
+2842,Chicken Nose,Isenfluh,9a+,9a+,,unrepeated,Adam Ondra,4th Nov 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2842
+2853,El Maquinista,Montanejos,9a+,9a+,,unrepeated,Adam Ondra,12th Nov 2023,day,2023,1,9a+/9b,False,,,,,https://climbing-history.org/climb/2853
+2949,Okachi,Montanejos,9a+,9a+,,unrepeated,Jonatan Flor,Dec 2023,month,2023,1,,False,,,,,https://climbing-history.org/climb/2949
+2950,Faster and More Furious,Orgon,9a+,9a+,,unrepeated,Loïc Zehani,24th Nov 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2950
+2951,La Guerre des Wolfs,La Verrière,9a+,9a+,,unrepeated,Mattéo Soulé,22nd Nov 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/2951
+6873,Pun Intended,,9a+,9a+,,unrepeated,Spencer Schmick,16th Apr 2023,day,2023,1,9a+ (soft),False,,,,,https://climbing-history.org/climb/6873
+7337,Back to the Future,Mount Potosi,9a+,9a+,,unrepeated,Jonathan Siegrist,20th Feb 2023,day,2023,1,,False,,,,,https://climbing-history.org/climb/7337
+8162,X Integral,Ravoire,9a+,9a+,,consensus,Dylan Chuat,16th Jul 2023,day,2023,4,,False,,,,,https://climbing-history.org/climb/8162
+3242,Death of Villains,Hurricave,9a+,9a+,,consensus,Kai Lightner,29th Feb 2024,day,2024,5,,False,,,,,https://climbing-history.org/climb/3242
+3355,Trainspotting,La Stazione,9a+,9a+,,consensus,Lorenzo Bogliacino,Apr 2024,month,2024,2,,False,,,,,https://climbing-history.org/climb/3355
+3380,La Cinquantaine Éclatante,L'Abattoir,9a+,9a+,,unrepeated,Tanguy Merard,8th Apr 2024,day,2024,1,,False,,,,,https://climbing-history.org/climb/3380
+3964,Midnight Way,Paradise Valley,9a+,9a+,,consensus,Connor Herson,2024,year,2024,4,,False,,,,,https://climbing-history.org/climb/3964
+5172,Mangarbo Natural,Villanueva del Rosario,9a+,9a+,,unrepeated,Andrea Chelleris,9th Nov 2024,day,2024,1,,False,,,,,https://climbing-history.org/climb/5172
+5440,Kuche Marka,Karlukovo,9a+,9a+,,unrepeated,Niki Rusev,22nd Nov 2024,day,2024,1,,False,,,,,https://climbing-history.org/climb/5440
+4482,El Subnormal del Antihydral R2,Cuenca,9a+,9a+,,unrepeated,Alex Garriga,2025,year,2025,1,,False,,,,,https://climbing-history.org/climb/4482
+5116,Le Grand Saccage,Buoux,9a+,9a+,,unrepeated,Alex Megos,Apr 2025,month,2025,1,9a+/9b,False,,,,,https://climbing-history.org/climb/5116
+5127,Selene,Montanejos,9a+,9a+,,unrepeated,Jonatan Flor,2025,year,2025,1,,False,,,,,https://climbing-history.org/climb/5127
+5226,Der Rote Baron,Zigeunerloch,9a+,9a+,,unrepeated,Christian Leitner,22nd Mar 2025,day,2025,1,,False,,,,,https://climbing-history.org/climb/5226
+5414,Turbo Mouse,Bomaderry Creek,9a+,9a+,,unrepeated,Ryan Sklenica,2025,year,2025,1,,False,,,,,https://climbing-history.org/climb/5414
+5748,Titanesque,La Balme de Yenne,9a+,9a+,,unrepeated,Mathieu Bouyoud,31st Aug 2025,day,2025,1,,False,,,,,https://climbing-history.org/climb/5748
+5920,Hafgúfa,Havstein,9a+,9a+,,unrepeated,Leo Bøe,14th Sep 2025,day,2025,1,,False,,,,,https://climbing-history.org/climb/5920
+6133,Selene Permanente,Montanejos,9a+,9a+,,consensus,Jonatan Flor,Before 28th Jun 2025,upper-bound,2025,2,9a+/9b,False,,,,,https://climbing-history.org/climb/6133
+6231,Ouélamola,Plamproz,9a+,9a+,,unrepeated,Dylan Chuat,14th Oct 2025,day,2025,1,,False,,,,,https://climbing-history.org/climb/6231
+6305,Eazy Street,Mount Charleston,9a+,9a+,,unrepeated,Jonathan Siegrist,17th Oct 2025,day,2025,1,9a+,False,,,,,https://climbing-history.org/climb/6305
+6314,The Master,Cornalba,9a+,9a+,,unrepeated,Luca Bana,25th Oct 2025,day,2025,1,,False,,,,,https://climbing-history.org/climb/6314
+6437,Terre Sacrée,Rawyl,9a+,9a+,,unrepeated,Dylan Chuat,16th Nov 2025,day,2025,1,,False,,,,,https://climbing-history.org/climb/6437
+6739,Not So Isili,Isili,9a+,9a+,,unrepeated,Gianluca Vighetti,31st Dec 2025,day,2025,1,9a+ (soft),False,,,,,https://climbing-history.org/climb/6739
+7876,Affinità Elettive,Capanna Bill,9a+,9a+,,consensus,Andrea Milani,Before 13th Oct 2025,upper-bound,2025,4,,False,,,,,https://climbing-history.org/climb/7876
+7151,Camino al Exilio,Las Chilcas,9a+,9a+,,unrepeated,Ronny Escobar,Before 22nd Feb 2026,upper-bound,2026,1,,False,,,,,https://climbing-history.org/climb/7151
+7601,Fox-Like Creature,Natural Bridge,9a+,9a+,,unrepeated,Cy Mcintosh,3rd May 2026,day,2026,1,,False,,,,,https://climbing-history.org/climb/7601
+7679,Illusion of Lactate,Zigeunerloch,9a+,9a+,,unrepeated,Christian Leitner,9th Apr 2026,day,2026,1,,False,,,,,https://climbing-history.org/climb/7679
+7692,Tropico del Capricorno,Mediterranea,9a+,9a+,,unrepeated,Luca Bana,13th May 2026,day,2026,1,,False,,,,,https://climbing-history.org/climb/7692
+7779,La Gayola Perfecta,Montanejos,9a+,9a+,,unrepeated,Alex Garriga,Before 24th May 2026,upper-bound,2026,1,,False,,,,,https://climbing-history.org/climb/7779
+7825,Les Plumes de Calcaire,Pic Saint-Loup,9a+,9a+,,unrepeated,Seb Bouin,Before 29th May 2026,upper-bound,2026,1,,False,,,,,https://climbing-history.org/climb/7825
+8028,Big Twin,Laggio Laboratorio,9a+,9a+,,consensus,Adam Ondra,21st May 2026,day,2026,3,,False,,,,,https://climbing-history.org/climb/8028
+8074,Verdens Ende,the Flatanger Cave,9a+,9a+,,unrepeated,Leo Bøe,1st Jul 2026,day,2026,1,9a+ (soft),False,,,,,https://climbing-history.org/climb/8074
+8213,L'Enfant Despote,La Balme de Yenne,9a+,9a+,,unrepeated,Maël Musson,10th Aug 2026,day,2026,1,,False,,,,,https://climbing-history.org/climb/8213
+468,Violent New Breed,Giggleswick,9a+,9a+,,unrepeated,,,,,1,,False,,,,,https://climbing-history.org/climb/468
+588,Brandenburg Gate,Raven Tor,9a+,9a+,,unrepeated,,,,,1,,False,,,,,https://climbing-history.org/climb/588
+789,Chilam Balam,Villanueva del Rosario,9a+,9a+,9b+,disputed,,,,,11,,False,,Bernabé Fernández,4th Jul 2003,"Claimed 9b+ in 2003, 9 years before Change. The site classes the FA as not-successful (dnf) in its ascent table and carries the route at 9a+ from its 11 later ascents.",https://climbing-history.org/climb/789
+1195,Orujo,Archidona,9a+,9a+,,unrepeated,,,,,1,,False,,,,,https://climbing-history.org/climb/1195
+2377,Rei De Bering,Meio Mango,9a+,9a+,,unrepeated,Seb Bouin,24th-31st January 2023,day,,1,,False,,,,,https://climbing-history.org/climb/2377
+2434,At Home Cornus,Les Petits Goulets,9a+,9a+,,unrepeated,Cédric Lachat,1st January-1st April 2023,day,,1,,False,,,,,https://climbing-history.org/climb/2434
+8352,Legend,Wilhelmswand,9a+,9a+,,unrepeated,Klem Loskot,2000-2014,day,,1,,False,,,,,https://climbing-history.org/climb/8352
+475,Akira,Le Périgord,9a,9b,9b,disputed,Fred Rouhling,6th Jun 1995,day,1995,4,9b,False,,Fred Rouhling,6th Jun 1995,"Claimed 9b in 1995, 17 years before Change. Never accepted; the site carries Akira at 9a consensus with Rouhling's 9b suggestion recorded, and its 4 logged ascents are at the consensus grade.",https://climbing-history.org/climb/475
+1490,Coup de Grace,Valle Bavona,9a,9a+,,regraded,Dave Graham,31st Oct 2005,day,2005,6,9a+,False,,,,,https://climbing-history.org/climb/1490
+4426,Xaxid Hostel,Mišja Peč,9a,9a+,,regraded,Tomáš Mrázek,Before 16th Nov 2009,upper-bound,2009,4,9a+,False,,,,,https://climbing-history.org/climb/4426
+4852,The Man That Follows Hell,Grüne Hölle,9a,9a+,,regraded,Markus Bock,Before 30th Oct 2011,upper-bound,2011,3,9a+,False,,,,,https://climbing-history.org/climb/4852
+1498,Meiose,Charmey,9a,9b,,regraded,Pirmin Bertle,Nov 2015,month,2015,4,9b,False,,,,,https://climbing-history.org/climb/1498
+478,Ataxia Hiperextension,Crevillente,9a,9a+,,regraded,Jonathan Guadalcázar,31st Dec 2019,day,2019,3,9a+/9b,False,,,,,https://climbing-history.org/climb/478
+2169,One Hundred Proof,Mount Potosi,9a,9a+,,regraded,Jonathan Siegrist,Feb 2020,month,2020,4,9a+,False,,,,,https://climbing-history.org/climb/2169
+2794,De Battre Mon Coeur s'est Arrêt,Rodellar,9a,9a+,,regraded,Anak Verhoeven,15th Oct 2023,day,2023,1,9a+,False,,,,,https://climbing-history.org/climb/2794
+1944,Empath,Silver Lake,8c+,9a+,,regraded,Carlo Traversi,15th Oct 2020,day,2020,10,9a+,False,,,,,https://climbing-history.org/climb/1944
