@@ -1,0 +1,11 @@
+convention,grade,grade_order,climb_id,route,climber,first_ascent,date_precision,location,num_ascents,status,grade_today,grade_at_fa,supplement_source,n_routes_at_grade,ordering_unresolved_with,year_frac,steps
+as_proposed,8a+,26,522,The Face,Jerry Moffatt,1983-01-01,year,Schellneckkopf,3,consensus,8a+,8a+,,99,,1983.0,0
+as_proposed,8b,27,1611,Les Mains Sales,Marc Le Menestrel,1984-01-01,year,Buoux,4,consensus,8b,8b,,207,"Kanal im Rücken (Wolfgang Güllich, 24th Oct 1984)",1984.0,1
+as_proposed,8b+,28,519,Punks in the Gym,Wolfgang Güllich,1985-01-01,year,Arapiles,12,consensus,8b+,8b+,Wikipedia: List of grade milestones in rock climbing (year only),206,,1985.0,2
+as_proposed,8c,29,518,Wallstreet,Wolfgang Güllich,1987-01-01,year,Krottenseer Turm,8,consensus,8c,8c,,284,,1987.0,3
+as_proposed,8c+,30,5,Hubble,Ben Moon,1990-06-14,day,Raven Tor,12,regraded,9a,8c+,,226,,1990.4490075290896,4
+as_proposed,9a,31,515,Action Directe,Wolfgang Güllich,1991-09-14,day,Waldkopf,32,consensus,9a,9a,,309,,1991.7008898015058,5
+as_proposed,9a+,32,513,Biographie,Chris Sharma,2001-07-18,day,Céüse,21,consensus,9a+,9a+,,156,,2001.542094455852,6
+as_proposed,9b,33,477,Ali Hulk (extension sit start),Dani Andrada,2007-11-08,day,Rodellar,4,regraded,9a+,9b,,73,,2007.851471594798,7
+as_proposed,9b+,34,469,Change,Adam Ondra,2012-10-04,day,the Flatanger Cave,6,consensus,9b+,9b+,,12,,2012.7583846680357,8
+as_proposed,9c,35,465,Silence,Adam Ondra,2017-09-03,day,the Flatanger Cave,1,unrepeated,9c,9c,,5,,2017.6707734428473,9
