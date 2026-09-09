@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.xlsx
+
+# Scrape working files. The finished data/raw/*.csv snapshot IS committed --
+# these are only the resume state a run needs while it is in flight.
+data/raw/*.partial.csv
+data/raw/.checkpoint_*.json
+
+# Local Claude Code settings
+.claude/settings.local.json
