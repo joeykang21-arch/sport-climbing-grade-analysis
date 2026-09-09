@@ -39,8 +39,11 @@ CLEAN_DETAIL_CSV = PROCESSED_DIR / "climbs_detail.csv"
 CLEAN_INDEX_CSV = PROCESSED_DIR / "climbs_index.csv"
 SPORT_CSV = PROCESSED_DIR / "sport_routes.csv"
 SPORT_8A_PLUS_CSV = PROCESSED_DIR / "sport_8a_and_above.csv"
-SPORT_REGRADED_CSV = PROCESSED_DIR / "sport_regraded.csv"
+REGRADED_ROUTES_CSV = PROCESSED_DIR / "regraded_routes.csv"
 BOULDERS_CSV = PROCESSED_DIR / "boulders.csv"
+# Written by the milestone analysis, not by build_datasets: sport's
+# claimed-but-unconfirmed ascents, with a status column.
+DISPUTED_ASCENTS_CSV = PROCESSED_DIR / "disputed_ascents.csv"
 
 SITE_ROOT = "https://climbing-history.org"
 

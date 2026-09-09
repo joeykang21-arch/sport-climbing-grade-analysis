@@ -1,0 +1,87 @@
+climb_id,climb_url,climb_name,grade,climb_type,location,num_ascents,first_climber,first_style,first_ascent_date,first_suggested_grade,grade_clean,grade_order,is_multipitch,yds,first_ascent,first_ascent_year,suggested_clean,suggested_order,direction
+4816,https://climbing-history.org/climb/4816,Pistol Fingers,8a+,Sport route,Long Tor Quarry,1,Jon Fullwood,Lead | worked,11th Jul 2006,8a,8a+,26,False,5.13c,2006-07-11,2006,8a,25.0,upgrade
+4199,https://climbing-history.org/climb/4199,Fiager Extension,8a+,Sport route,Cabezon de Oro,1,Prudence Morgan-Wood,Lead | flash,25th Nov 2024,8a,8a+,26,False,5.13c,2024-11-25,2024,8a,25.0,upgrade
+1398,https://climbing-history.org/climb/1398,Vespasian,8b,Sport route,Coastguard,1,Pete Oxley,Lead | worked,1st Oct 1994,8a+,8b,27,False,5.13d,1994-10-01,1994,8a+,26.0,upgrade
+3205,https://climbing-history.org/climb/3205,Cyberdog,8b,Sport route,Anstey's Cove,1,Ken Palmer,Lead | worked,Aug 2001,8a+,8b,27,False,5.13d,2001-08-01,2001,8a+,26.0,upgrade
+2964,https://climbing-history.org/climb/2964,Brean Topping,8b,Sport route,Brean Down,1,Steve McClure,Lead | worked,2002,8a+,8b,27,False,5.13d,2002-01-01,2002,8a+,26.0,upgrade
+4184,https://climbing-history.org/climb/4184,Aromas del Cabezón,8b,Sport route,Cabezon de Oro,1,Prudence Morgan-Wood,Lead | flash,24th Nov 2024,8a+/8b,8b,27,False,5.13d,2024-11-24,2024,8a+,26.0,upgrade
+6383,https://climbing-history.org/climb/6383,New Deal,8b+,Sport route,Echo Rock Area,2,Scott Cosgrove,Lead | worked,31st Jan 1988,8b,8b+,28,False,5.14a,1988-01-31,1988,8b,27.0,upgrade
+5184,https://climbing-history.org/climb/5184,Mango Tango,8b+,Sport route,Meadow River Gorge,2,Scott Franklin,Lead | worked,1989,8b,8b+,28,False,5.14a,1989-01-01,1989,8b,27.0,upgrade
+318,https://climbing-history.org/climb/318,G.B.H.,8a+,Sport route,Malham Cove,6,Tony Mitchell,Lead | worked,1991,8b,8a+,26,False,5.13c,1991-01-01,1991,8b,27.0,downgrade
+374,https://climbing-history.org/climb/374,Poppy,8b+,Sport route,Anstey's Cove,8,Ken Palmer,Lead | worked,25th Mar 1994,8b,8b+,28,False,5.14a,1994-03-25,1994,8b,27.0,upgrade
+7974,https://climbing-history.org/climb/7974,Theda Bara,8a+,Sport route,Diamond Falls,3,Garth Miller,Lead | worked,1998,8b/8b+,8a+,26,False,5.13c,1998-01-01,1998,8b,27.0,downgrade
+4747,https://climbing-history.org/climb/4747,Entre les Règles,8a+,Sport route,Entraygues,1,Thilo Schröter,Lead | flash,2018,8b,8a+,26,False,5.13c,2018-01-01,2018,8b,27.0,downgrade
+12,https://climbing-history.org/climb/12,Cry Freedom,8c,Sport route,Malham Cove,19,Mark Leach,Lead | worked,1988,8b+,8c,29,False,5.14b,1988-01-01,1988,8b+,28.0,upgrade
+4691,https://climbing-history.org/climb/4691,Draumkvedet,8c,Sport route,Damtjern,10,Leif Henning Broch Johnsen,Lead | worked,2003,8b+,8c,29,False,5.14b,2003-01-01,2003,8b+,28.0,upgrade
+1622,https://climbing-history.org/climb/1622,Seraphim,8c,Sport route,Raven Tor,3,Rupert Davies,Lead | worked,30th Apr 2007,8b+,8c,29,False,5.14b,2007-04-30,2007,8b+,28.0,upgrade
+4461,https://climbing-history.org/climb/4461,Aitzol,8c,Sport route,Margalef,11,Dani Andrada,Lead | worked,17th Apr 2008,8b+/8c,8c,29,False,5.14b,2008-04-17,2008,8b+,28.0,upgrade
+2827,https://climbing-history.org/climb/2827,Least Resistance,8c,Sport route,Schleierwasserfall,2,Adam Ondra,Lead | onsight,6th Jul 2008,8b+,8c,29,False,5.14b,2008-07-06,2008,8b+,28.0,upgrade
+4704,https://climbing-history.org/climb/4704,Janus,8c,Sport route,Götterwandl,3,Patxi Usobiaga,Lead | onsight,20th Sep 2008,8b+/8c,8c,29,False,5.14b,2008-09-20,2008,8b+,28.0,upgrade
+7802,https://climbing-history.org/climb/7802,Utopia,8c,Sport route,Solvik,2,Erik Grandelius,Lead | worked,15th Jun 2010,8b+ (hard),8c,29,False,5.14b,2010-06-15,2010,8b+,28.0,upgrade
+7900,https://climbing-history.org/climb/7900,Kansannousu,8c,Sport route,Mustavuori,4,Anthony Gullsten,Lead | worked,6th Aug 2013,8b+,8c,29,False,5.14b,2013-08-06,2013,8b+,28.0,upgrade
+1826,https://climbing-history.org/climb/1826,La Pequeña Mowgli,8c,Sport route,Siurana,7,Jorge Díaz-Rullo,Solo | worked,27th Feb 2022,8b+/8c,8c,29,False,5.14b,2022-02-27,2022,8b+,28.0,upgrade
+66,https://climbing-history.org/climb/66,Liquid Ambar,8c+,Sport route,Lower Pen Trwyn,5,Jerry Moffatt,Lead | worked,30th Mar 1990,8c,8c+,30,False,5.14c,1990-03-30,1990,8c,29.0,upgrade
+65,https://climbing-history.org/climb/65,Progress,8c+,Sport route,Kilnsey,19,Jerry Moffatt,Lead | worked,1995,8c,8c+,30,False,5.14c,1995-01-01,1995,8c,29.0,upgrade
+1858,https://climbing-history.org/climb/1858,The Big R,8b+,Sport route,Smith Rock,3,Marc Le Menestrel,Lead | worked,May 1995,8c,8b+,28,False,5.14a,1995-05-01,1995,8c,29.0,downgrade
+3280,https://climbing-history.org/climb/3280,Sonne im Herzen,8c+,Sport route,,1,Marietta Uhden,Lead | worked,2001,8c,8c+,30,False,5.14c,2001-01-01,2001,8c,29.0,upgrade
+1621,https://climbing-history.org/climb/1621,Hooligan,8c+,Sport route,Raven Tor,3,Steve Dunning,Lead | worked,23rd May 2002,8c,8c+,30,False,5.14c,2002-05-23,2002,8c,29.0,upgrade
+64,https://climbing-history.org/climb/64,Brian,8c+,Sport route,Anstey's Cove,4,Ken Palmer,Lead | worked,Aug 2003,8c,8c+,30,False,5.14c,2003-08-01,2003,8c,29.0,upgrade
+6077,https://climbing-history.org/climb/6077,Tango to Nik,8c+,Sport route,the Gorges du Loup,2,Cedric Lo Piccolo,Lead | worked,16th Aug 2004,8c,8c+,30,False,5.14c,2004-08-16,2004,8c,29.0,upgrade
+1476,https://climbing-history.org/climb/1476,Victimes del Futur,9a,Sport route,Margalef,11,Ramón Julián Puigblanque,Lead | worked,4th Jun 2006,8c/8c+,9a,31,False,5.14d,2006-06-04,2006,8c,29.0,upgrade
+1795,https://climbing-history.org/climb/1795,La Reina Mora,9a,Sport route,Siurana,7,Ramón Julián Puigblanque,Lead | worked,7th Jun 2008,8c,9a,31,False,5.14d,2008-06-07,2008,8c,29.0,upgrade
+7668,https://climbing-history.org/climb/7668,Froskekongen,8b+,Sport route,Glasøyfjellet,3,Jochen Perschmann,Lead | worked,5th Sep 2014,8c,8b+,28,False,5.14a,2014-09-05,2014,8c,29.0,downgrade
+1129,https://climbing-history.org/climb/1129,Warmduscher,8c+,Sport route,Schleierwasserfall,1,Adam Ondra,Lead | onsight,15th Jul 2020,8c/8c+,8c+,30,False,5.14c,2020-07-15,2020,8c,29.0,upgrade
+7803,https://climbing-history.org/climb/7803,Hélix au Pays des Merveilles,8c+,Sport route,Pic Saint-Loup,1,Jules Marchaland,Lead | worked,24th May 2026,8c/8c+,8c+,30,False,5.14c,2026-05-24,2026,8c,29.0,upgrade
+5,https://climbing-history.org/climb/5,Hubble,9a,Sport route,Raven Tor,12,Ben Moon,Lead | worked,14th Jun 1990,8c+,9a,31,False,5.14d,1990-06-14,1990,8c+,30.0,upgrade
+1194,https://climbing-history.org/climb/1194,Qui,9a+,Sport route,Geisterschmiedwand,5,Stefan Fürst,Lead | worked,1996,8c+/9a,9a+,32,False,5.15a,1996-01-01,1996,8c+,30.0,upgrade
+7473,https://climbing-history.org/climb/7473,Pandemonium,9a,Sport route,Podzamcze,2,Rafał Moucki,Lead | worked,11th Aug 2001,8c+,9a,31,False,5.14d,2001-08-11,2001,8c+,30.0,upgrade
+3956,https://climbing-history.org/climb/3956,Priorato de Sion,9a,Sport route,Alquézar,1,Ramón Julián Puigblanque,Lead | worked,24th Mar 2008,8c+,9a,31,False,5.14d,2008-03-24,2008,8c+,30.0,upgrade
+3958,https://climbing-history.org/climb/3958,Priorato de Sion,9a,Sport route,Alquézar,1,Ramón Julián Puigblanque,Lead | worked,24th Mar 2008,8c+,9a,31,False,5.14d,2008-03-24,2008,8c+,30.0,upgrade
+3346,https://climbing-history.org/climb/3346,Víctima Perfecta,9a+,Sport route,Margalef,3,Ramón Julián Puigblanque,Lead | worked,23rd Aug 2008,8c+,9a+,32,False,5.15a,2008-08-23,2008,8c+,30.0,upgrade
+7685,https://climbing-history.org/climb/7685,Dolby Surround,9a,Sport route,Ewige Jagdgründe,4,Kilian Fischhuber,Lead | worked,Before 2nd Sep 2008,8c+,9a,31,False,5.14d,2008-09-02,2008,8c+,30.0,upgrade
+4797,https://climbing-history.org/climb/4797,Matador,9a,Sport route,Glocke,3,Adam Ondra,Lead | worked,20th Sep 2008,8c+,9a,31,False,5.14d,2008-09-20,2008,8c+,30.0,upgrade
+45,https://climbing-history.org/climb/45,Descente Lolita,9a,Sport route,Sabart,1,Stevie Haston,Lead | worked,2009,8c+,9a,31,False,5.14d,2009-01-01,2009,8c+,30.0,upgrade
+2733,https://climbing-history.org/climb/2733,Muy Verdes,8c,Sport route,the Flatanger Cave,19,Erik Grandelius,Lead | worked,10th Jul 2012,8c+ (soft),8c,29,False,5.14b,2012-07-10,2012,8c+,30.0,downgrade
+7656,https://climbing-history.org/climb/7656,Hell of a Paradise,8c,Sport route,Hell,3,Adam Ondra,Lead | worked,31st Aug 2015,8c+,8c,29,False,5.14b,2015-08-31,2015,8c+,30.0,downgrade
+6549,https://climbing-history.org/climb/6549,In Hell I'll Be in Good Company,9a,Sport route,American Fork Canyon,2,Dalton Bunker,Lead | worked,11th Apr 2018,8c+,9a,31,False,5.14d,2018-04-11,2018,8c+,30.0,upgrade
+5020,https://climbing-history.org/climb/5020,Buddha,9a,Sport route,Pissevache,3,Shawn Raboutou,Lead | worked,Before 15th Nov 2018,8c+/9a,9a,31,False,5.14d,2018-11-15,2018,8c+,30.0,upgrade
+4536,https://climbing-history.org/climb/4536,JoeDan,9a,Sport route,Santa Linya,8,Gonzalo Larrocha,Lead | worked,29th Jan 2019,8c+/9a,9a,31,False,5.14d,2019-01-29,2019,8c+,30.0,upgrade
+71,https://climbing-history.org/climb/71,Radar Ez,8c,Sport route,Fìgols,3,Luke Dawson,Lead | worked,2nd Mar 2019,8c+ (soft),8c,29,False,5.14b,2019-03-02,2019,8c+,30.0,downgrade
+8054,https://climbing-history.org/climb/8054,Panonoramix et les Cyclopes,8c,Sport route,Saint Léger,1,Oriane Bertone,Lead | worked,23rd Jun 2020,8c+,8c,29,False,5.14b,2020-06-23,2020,8c+,30.0,downgrade
+1232,https://climbing-history.org/climb/1232,Preposterous Tales,9a,Sport route,Kilnsey,1,Alex Barrows,Lead | worked,6th May 2021,8c+/9a,9a,31,False,5.14d,2021-05-06,2021,8c+,30.0,upgrade
+5555,https://climbing-history.org/climb/5555,All Too Familiar,9a,Sport route,Parisella's Cave,1,Alex Barrows,Lead | worked,4th Aug 2025,8c+/9a,9a,31,False,5.14d,2025-08-04,2025,8c+,30.0,upgrade
+512,https://climbing-history.org/climb/512,Open Air,9a+,Sport route,Schleierwasserfall,2,Alexander Huber,Lead | worked,6th Dec 1996,9a,9a+,32,False,5.15a,1996-12-06,1996,9a,31.0,upgrade
+392,https://climbing-history.org/climb/392,Mutation,9a+,Sport route,Raven Tor,2,Steve McClure,Lead | worked,14th Oct 1998,9a,9a+,32,False,5.15a,1998-10-14,1998,9a,31.0,upgrade
+3849,https://climbing-history.org/climb/3849,Iñi Ameriketan,9a+,Sport route,Baltzola,6,Rikar Otegi,Lead | worked,10th May 2002,9a,9a+,32,False,5.15a,2002-05-10,2002,9a,31.0,upgrade
+810,https://climbing-history.org/climb/810,Bimbaluna,9a+,Sport route,Saint-Loup,4,François Nicole,Lead | worked,Mar 2004,9a/9a+,9a+,32,False,5.15a,2004-03-01,2004,9a,31.0,upgrade
+6398,https://climbing-history.org/climb/6398,Alí Babá,8c,Sport route,Rodellar,1,Phil Gondoux,Lead | worked,10th Oct 2006,9a,8c,29,False,5.14b,2006-10-10,2006,9a,31.0,downgrade
+1849,https://climbing-history.org/climb/1849,Three Degrees of Separation,9a+,Sport route,Céüse,7,Chris Sharma,Lead | worked,15th Jul 2007,9a,9a+,32,False,5.15a,2007-07-15,2007,9a,31.0,upgrade
+3090,https://climbing-history.org/climb/3090,Sachidananda,9a+,Sport route,Orgon,4,Gérome Pouvreau,Lead | worked,27th May 2009,9a/9a+,9a+,32,False,5.15a,2009-05-27,2009,9a,31.0,upgrade
+1620,https://climbing-history.org/climb/1620,Eternit,9a+,Sport route,Baule,2,Maurizio Zanolla,Lead | worked,24th Aug 2009,9a,9a+,32,False,5.15a,2009-08-24,2009,9a,31.0,upgrade
+3955,https://climbing-history.org/climb/3955,Goldrake,9a+,Sport route,Cornalba,3,Adam Ondra,Lead | worked,6th Apr 2010,9a,9a+,32,False,5.15a,2010-04-06,2010,9a,31.0,upgrade
+1497,https://climbing-history.org/climb/1497,Chromosone Y,8c+,Sport route,Charmey,3,Pirmin Bertle,Lead | worked,2012,9a,8c+,30,False,5.14c,2012-01-01,2012,9a,31.0,downgrade
+1193,https://climbing-history.org/climb/1193,Mejorando Imagen,9a+,Sport route,Margalef,5,Ramón Julián Puigblanque,Lead | worked,26th Jul 2013,9a,9a+,32,False,5.15a,2013-07-26,2013,9a,31.0,upgrade
+7391,https://climbing-history.org/climb/7391,Companion of Change,9a+,Sport route,Bergstation,2,Jakob Schubert,Lead | worked,17th Nov 2015,9a (hard),9a+,32,False,5.15a,2015-11-17,2015,9a,31.0,upgrade
+7338,https://climbing-history.org/climb/7338,The Eggporkalypse,8c+,Sport route,Mount Potosi,3,Andy Raether,Lead | worked,16th Oct 2016,9a,8c+,30,False,5.14c,2016-10-16,2016,9a,31.0,downgrade
+2104,https://climbing-history.org/climb/2104,Bone Tomahawk,9a+,Sport route,the Fynn Cave,7,Joe Kinder,Lead | worked,28th Oct 2016,9a/9a+,9a+,32,False,5.15a,2016-10-28,2016,9a,31.0,upgrade
+2987,https://climbing-history.org/climb/2987,Beyond,9a+,Sport route,Pic Saint-Loup,6,Seb Bouin,Lead | worked,26th May 2019,9a,9a+,32,False,5.15a,2019-05-26,2019,9a,31.0,upgrade
+3972,https://climbing-history.org/climb/3972,Dad Bod,8c+,Sport route,Mount Charleston,3,Owen Whaley,Lead | worked,4th May 2022,9a,8c+,30,False,5.14c,2022-05-04,2022,9a,31.0,downgrade
+2706,https://climbing-history.org/climb/2706,A je to!,9a+,Sport route,Vranjača,1,Adam Ondra,Lead | worked,31st Aug 2023,9a/9a+,9a+,32,False,5.15a,2023-08-31,2023,9a,31.0,upgrade
+1490,https://climbing-history.org/climb/1490,Coup de Grace,9a,Sport route,Valle Bavona,6,Dave Graham,Lead | worked,31st Oct 2005,9a+,9a,31,False,5.14d,2005-10-31,2005,9a+,32.0,downgrade
+4426,https://climbing-history.org/climb/4426,Xaxid Hostel,9a,Sport route,Mišja Peč,4,Tomáš Mrázek,Lead | worked,Before 16th Nov 2009,9a+,9a,31,False,5.14d,2009-11-16,2009,9a+,32.0,downgrade
+4852,https://climbing-history.org/climb/4852,The Man That Follows Hell,9a,Sport route,Grüne Hölle,3,Markus Bock,Lead | worked,Before 30th Oct 2011,9a+,9a,31,False,5.14d,2011-10-30,2011,9a+,32.0,downgrade
+1263,https://climbing-history.org/climb/1263,Peruvian Necktie,9b,Sport route,Poptire Cave,2,James Litz,Lead | worked,Oct 2013,9a+,9b,33,False,5.15b,2013-10-01,2013,9a+,32.0,upgrade
+2919,https://climbing-history.org/climb/2919,Clash of the Titans,9b,Sport route,Götterwandl,3,Alex Megos,Lead | worked,17th Jun 2017,9a+,9b,33,False,5.15b,2017-06-17,2017,9a+,32.0,upgrade
+478,https://climbing-history.org/climb/478,Ataxia Hiperextension,9a,Sport route,Crevillente,3,Jonathan Guadalcázar,Lead | worked,31st Dec 2019,9a+/9b,9a,31,False,5.14d,2019-12-31,2019,9a+,32.0,downgrade
+2169,https://climbing-history.org/climb/2169,One Hundred Proof,9a,Sport route,Mount Potosi,4,Jonathan Siegrist,Lead | worked,Feb 2020,9a+,9a,31,False,5.14d,2020-02-01,2020,9a+,32.0,downgrade
+1944,https://climbing-history.org/climb/1944,Empath,8c+,Sport route,Silver Lake,10,Carlo Traversi,Lead | worked,15th Oct 2020,9a+,8c+,30,False,5.14c,2020-10-15,2020,9a+,32.0,downgrade
+2794,https://climbing-history.org/climb/2794,De Battre Mon Coeur s'est Arrêt,9a,Sport route,Rodellar,1,Anak Verhoeven,Lead | worked,15th Oct 2023,9a+,9a,31,False,5.14d,2023-10-15,2023,9a+,32.0,downgrade
+475,https://climbing-history.org/climb/475,Akira,9a,Sport route,Le Périgord,4,Fred Rouhling,Lead | worked,6th Jun 1995,9b,9a,31,False,5.14d,1995-06-06,1995,9b,33.0,downgrade
+477,https://climbing-history.org/climb/477,Ali Hulk (extension sit start),9a+,Sport route,Rodellar,4,Dani Andrada,Lead | worked,8th Nov 2007,9b,9a+,32,False,5.15a,2007-11-08,2007,9b,33.0,downgrade
+489,https://climbing-history.org/climb/489,Iron Curtain,9a+,Sport route,the Flatanger Cave,3,Adam Ondra,Lead | worked,3rd Aug 2013,9b,9a+,32,False,5.15a,2013-08-03,2013,9b,33.0,downgrade
+1498,https://climbing-history.org/climb/1498,Meiose,9a,Sport route,Charmey,4,Pirmin Bertle,Lead | worked,Nov 2015,9b,9a,31,False,5.14d,2015-11-01,2015,9b,33.0,downgrade
+3112,https://climbing-history.org/climb/3112,Apocalipsis de la Gioconda,9a+,Sport route,Rodellar,4,Jonatan Flor,Lead | worked,26th Aug 2019,9b,9a+,32,False,5.15a,2019-08-26,2019,9b,33.0,downgrade
+1109,https://climbing-history.org/climb/1109,La Furia de Jabali,9a+,Sport route,Siurana,10,Will Bosi,Lead | worked,4th Feb 2021,9b,9a+,32,False,5.15a,2021-02-04,2021,9b,33.0,downgrade
+1834,https://climbing-history.org/climb/1834,Wonderland,9b+,Sport route,Terra Promessa,1,Adam Ondra,Lead | worked,22nd Mar 2022,9b/9b+,9b+,34,False,5.15c,2022-03-22,2022,9b,33.0,upgrade
+1108,https://climbing-history.org/climb/1108,King Capella,9b,Sport route,Siurana,3,Will Bosi,Lead | worked,9th Mar 2021,9b+,9b,33,False,5.15b,2021-03-09,2021,9b+,34.0,downgrade
+2449,https://climbing-history.org/climb/2449,Sleeping Lion,9b,Sport route,Siurana,5,Chris Sharma,Lead | worked,28th Mar 2023,9b+,9b,33,False,5.15b,2023-03-28,2023,9b+,34.0,downgrade
