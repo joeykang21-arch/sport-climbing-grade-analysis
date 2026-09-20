@@ -20,8 +20,13 @@ from pathlib import Path
 import pandas as pd
 
 from . import config
+from .build_boulder_regrade_pages import (
+    OUT_NAME as BOULDER_REGRADES_PAGE,
+    chart_totals as boulder_chart_totals,
+)
+from .build_regrade_pages import load_regrades
 from .grades import french_ordinal
-from .milestones import breakthrough_table, load_sport
+from .milestones import TIE_BREAKS, breakthrough_table, load_sport
 
 VIZ_DIR = config.ROOT / "visualizations"
 
@@ -166,6 +171,10 @@ def build() -> None:
     era_links, change_links = [], []
 
     bounds = list(consensus["first_ascent"]) + [scrape_end]
+    # Two eras now run under a year — 8b (69 days) and 8c+ (76) — so "the
+    # shortest" has to be measured rather than asserted on every short page.
+    era_days = [(bounds[i + 1] - bounds[i]).days for i in range(len(consensus))]
+    shortest_days = min(era_days)
     for i, (_, m) in enumerate(consensus.iterrows()):
         grade = m["grade"]
         start, end = bounds[i], bounds[i + 1]
@@ -190,25 +199,36 @@ def build() -> None:
             closer = ("<p>The era is still open: no route has yet brought "
                       "the next grade.</p>")
 
-        # An era shorter than a year is the interesting case, not a typo: the
-        # consensus reading puts Liquid Ambar and Hubble eleven weeks apart in
-        # 1990, so "1990-1990" needs saying out loud.
+        # An era shorter than a year is the interesting case, not a typo, so it
+        # is said out loud — with the reason derived rather than assumed. The
+        # 8c+ era is short because both of its ends were regraded into place;
+        # the 8b era is short because a tie-break moved its opening to October.
         days = (end - start).days
         duration = ""
         if days < 365:
             weeks = round(days / 7)
+            rank = ("the shortest in the sport&rsquo;s history"
+                    if days == shortest_days
+                    else "one of the shortest in the sport&rsquo;s history")
+            why = ""
+            if (nxt is not None and m["status"] == "regraded"
+                    and nxt["status"] == "regraded"
+                    and start.year == nxt["first_ascent"].year):
+                why = (f', and an artefact of consensus: both routes were first '
+                       f'climbed in {start.year} and regraded later')
             duration = (f'<p class="small muted">This era lasted just '
-                        f'<strong>{weeks} weeks</strong> — the shortest in the '
-                        f'sport&rsquo;s history, and an artefact of consensus: '
-                        f'both routes were first climbed in 1990 and regraded '
-                        f'later.</p>')
+                        f'<strong>{weeks} weeks</strong> — {rank}{why}.</p>')
 
         tie = ""
         if pd.notna(m.get("ordering_unresolved_with")):
+            how = ("this page follows the curated tie-break in "
+                   "<code>milestones.py</code>, which gives the slot to the "
+                   "route carrying a real date"
+                   if grade in TIE_BREAKS else
+                   "this page follows the anchored date")
             tie = (f'<p class="small muted">Ordering note: '
                    f'{html.escape(str(m["ordering_unresolved_with"]))} shares '
-                   f'the year and the data cannot rank them; this page follows '
-                   f'the anchored date.</p>')
+                   f'the year and the data cannot rank them; {how}.</p>')
 
         body = (
             f"<h1>{html.escape(title)}</h1>"
@@ -272,12 +292,35 @@ def build() -> None:
         f'<span class="muted small">({plural(n)})</span></li>'
         for f, t, n in change_links
     )
+    # The across-all-grades pages deduplicate the site's double entries, so
+    # their own counts are what the index has to quote, not this file's raw ones.
+    deduped = load_regrades()["direction"].value_counts()
+    n_up, n_down = int(deduped["upgrade"]), int(deduped["downgrade"])
+    # The boulder page carries both directions on one chart, so the index
+    # quotes the pair — and quotes what the chart draws, which is fewer than
+    # the regrades found: see `chart_totals`.
+    b_up, b_down = boulder_chart_totals()
     index_body = f"""
 <h1>Sport grade history — interactive timelines</h1>
 <p>One page per grade era from 8a+ (1983) to the present, built from the
 2026-09-09 scrape of climbing-history.org. Grades shown are today's consensus;
 the repo's notebooks carry the parallel <code>as_proposed</code> reading and
 the disputed claims (Akira, Chilam Balam), which these pages exclude.</p>
+<h2>Across all grades</h2><ul class="pages">
+<li><a href="runway-by-grade.html">The runway before each new grade</a>
+<span class="muted small">(every route at a grade before the next one
+arrived)</span></li>
+<li><a href="upgrades-by-grade.html">Which routes moved up, era by era</a>
+<span class="muted small">({n_up} upgrades, on the runway page's
+windows)</span></li>
+<li><a href="downgrades-by-grade.html">Which routes moved down, era by era</a>
+<span class="muted small">({n_down} downgrades, same windows)</span></li>
+<li><a href="milestone-timeline.html">Every top grade, by consensus</a>
+<span class="muted small">(10 milestones, 1983&ndash;2017)</span></li>
+<li><a href="{BOULDER_REGRADES_PAGE}">The same question, for boulders</a>
+<span class="muted small">({b_up} up and {b_down} down on the Font
+scale)</span></li>
+</ul>
 <h2>Grade eras</h2><ul class="pages">{era_list}</ul>
 <h2>Upgrades and downgrades within each era</h2>
 <p class="small muted">Reconstructed from the first ascentionist's recorded
