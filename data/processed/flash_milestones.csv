@@ -1,0 +1,11 @@
+grade,route,climber,crag,country,date_raw,climb_id,grade_order,steps,ascent,date_precision,year_frac,months
+7b+,Captain Crochet,Patrick Edlinger,Buoux,FRA,1982,,22,0,1982-01-01,year,1982.0,0.0
+7c,La Polka des Ringards,Patrick Edlinger,Buoux,FRA,1982,,23,1,1982-01-01,year,1982.0,0.0
+7c+,Pol Pot,Jerry Moffatt,Verdon Gorge,FRA,1984,,24,2,1984-01-01,year,1984.0,24.0
+8a,Samizdat,Antoine Le Menestrel,Cimai,FRA,1987,1428.0,25,3,1987-01-01,year,1987.0,60.0
+8b,Liaisons Dangereuses,Elie Chevieux,Les Calanques,FRA,1993,,27,5,1993-01-01,year,1993.0,132.0
+8b+,Massey Fergusson,Elie Chevieux,Calanques,FRA,1995,839.0,28,6,1995-01-01,year,1995.0,156.0
+8c,White Zombie,Yuji Hirayama,Baltzola,ESP,6th Oct 2004,1313.0,29,7,2004-10-06,day,2004.7638603696098,273.1663244353176
+8c+,Bizi Euskaraz,Patxi Usobiaga,Etxauri,ESP,11th Dec 2007,1604.0,30,8,2007-12-11,day,2007.9418206707735,311.30184804928194
+9a,Estado Critico,Alex Megos,Siurana,ESP,24th Mar 2013,98.0,31,9,2013-03-24,day,2013.2245037645448,374.6940451745377
+9a+,Super Crackinette,Adam Ondra,Saint Leger,FRA,10th Feb 2018,464.0,32,10,2018-02-10,day,2018.1095140314853,433.314168377824

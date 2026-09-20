@@ -1,0 +1,11 @@
+grade,route,climber,crag,country,date_raw,climb_id,grade_order,steps,ascent,date_precision,year_frac,months
+8a,Come Back,Luisa Iovane,Val San Nicolo,ITA,1986,,25,0,1986-01-01,year,1986.0,0.0
+8a+,Choucas,Catherine Destivelle,Buoux,FRA,Mar 1988,,26,1,1988-03-01,month,1988.1642710472279,25.97125256673462
+8b,Sortileges,Isabelle Patissier,Le Cimai,FRA,1988,1586.0,27,2,1988-01-01,year,1988.0,24.0
+8b+,Masse Critique,Lynn Hill,Cimai,FRA,1990,1429.0,28,3,1990-01-01,year,1990.0,48.0
+8c,Honky Tonky,Josune Bereziartu,Onate,ESP,May 1998,1304.0,29,4,1998-05-01,month,1998.3285420944558,147.94250513346924
+8c+,Honky Tonk Mix,Josune Bereziartu,Onate,ESP,Jun 2000,862.0,30,5,2000-06-01,month,2000.416153319644,172.99383983572898
+9a,Bain de Sang,Josune Bereziartu,Saint Loup,SUI,29th Oct 2002,517.0,31,6,2002-10-29,day,2002.8240930869267,201.88911704312068
+9a+,La Rambla,Margo Hayes,Siurana,ESP,26th Feb 2017,514.0,32,7,2017-02-26,day,2017.1533196440794,373.8398357289525
+9b,La Planta de Shiva,Angela Eiter,Villanueva del Rosario,ESP,22nd Oct 2017,492.0,33,8,2017-10-22,day,2017.8049281314168,381.6591375770013
+9b+,Excalibur,Brooke Raboutou,Arco,ITA,5th Apr 2025,2384.0,34,9,2025-04-05,day,2025.2573579739903,471.08829568788406
