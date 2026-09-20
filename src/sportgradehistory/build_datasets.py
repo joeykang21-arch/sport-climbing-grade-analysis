@@ -65,6 +65,48 @@ BOULDER_TYPES = ("Boulder problem", "Boulder problem (indoor)")
 
 _APPROX = re.compile(r"^\(approx\)\s*")
 
+# Curated suggested-grade corrections, each cited. The site carries one
+# suggested-grade field per climb and occasionally fills it with the grade the
+# route settled at rather than the one the first ascentionist called, which
+# hides a regrade the prose on the same page describes. Correcting it here
+# keeps ``regraded_routes.csv`` -- and the as_proposed convention built on the
+# same field -- reading the claim rather than the outcome.
+#
+# Each entry names the stale value it replaces, so the patch applies only while
+# the scrape still carries that value: a later scrape that fixes the field
+# upstream retires the correction instead of silently overwriting it.
+SUGGESTED_GRADE_PATCHES: dict[int, dict[str, str]] = {
+    # Bibliographie, Céüse. Megos proposed 9c on the 2020 first ascent and the
+    # grade settled at 9b+ after Ghisolfi's repeat two years later -- the site's
+    # own climb description says exactly that ("Initially proposed at 9c it
+    # later settled at 9b+") while its structured field records only the 9b+ it
+    # ended at, so the downgrade goes unrecorded.
+    466: {
+        "was": "9b+",
+        "suggested": "9c",
+        "source": "climbing-history.org/climb/466, climb description",
+    },
+}
+
+
+def apply_suggested_patches(df: pd.DataFrame) -> pd.DataFrame:
+    """Apply :data:`SUGGESTED_GRADE_PATCHES`, recording where each came from.
+
+    Returns a copy carrying ``suggested_grade_source``: null for every row the
+    scrape speaks for on its own, the citation for a corrected one. A patch
+    whose ``was`` no longer matches the scraped value is skipped, so the column
+    is also the check that the corrections are still needed.
+    """
+    out = df.copy()
+    out["suggested_grade_source"] = pd.NA
+    for climb_id, patch in SUGGESTED_GRADE_PATCHES.items():
+        mask = (out["climb_id"] == climb_id) & (
+            out["first_suggested_grade"].astype("string") == patch["was"]
+        )
+        out.loc[mask, "first_suggested_grade"] = patch["suggested"]
+        out.loc[mask, "suggested_grade_source"] = patch["source"]
+    return out
+
 
 def load_raw_detail(path=None) -> pd.DataFrame:
     """Load the raw climb-detail scrape."""
@@ -90,7 +132,8 @@ def select_sport(df: pd.DataFrame) -> pd.DataFrame:
 
     keep = (is_sport | is_multipitch) & is_french
 
-    sport = add_grade_columns(df[keep], ordinal=french_ordinal)
+    sport = add_grade_columns(apply_suggested_patches(df[keep]),
+                              ordinal=french_ordinal)
     sport["is_multipitch"] = is_multipitch[keep].astype(bool)
     sport["yds"] = sport["grade"].map(french_to_yds)
     sport["first_ascent"] = pd.to_datetime(

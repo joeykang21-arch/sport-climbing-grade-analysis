@@ -1,6 +1,6 @@
 convention,grade,grade_order,climb_id,route,climber,first_ascent,date_precision,location,num_ascents,status,grade_today,grade_at_fa,supplement_source,n_routes_at_grade,ordering_unresolved_with
 as_proposed,8a+,26,522,The Face,Jerry Moffatt,1983-01-01,year,Schellneckkopf,3,consensus,8a+,8a+,,99,
-as_proposed,8b,27,1611,Les Mains Sales,Marc Le Menestrel,1984-01-01,year,Buoux,4,consensus,8b,8b,,207,"Kanal im Rücken (Wolfgang Güllich, 24th Oct 1984)"
+as_proposed,8b,27,521,Kanal im Rücken,Wolfgang Güllich,1984-10-24,day,Kastlwand,2,consensus,8b,8b,,207,"Les Mains Sales (Marc Le Menestrel, 1984)"
 as_proposed,8b+,28,519,Punks in the Gym,Wolfgang Güllich,1985-01-01,year,Arapiles,12,consensus,8b+,8b+,Wikipedia: List of grade milestones in rock climbing (year only),206,
 as_proposed,8c,29,518,Wallstreet,Wolfgang Güllich,1987-01-01,year,Krottenseer Turm,8,consensus,8c,8c,,284,
 as_proposed,8c+,30,5,Hubble,Ben Moon,1990-06-14,day,Raven Tor,12,regraded,9a,8c+,,226,

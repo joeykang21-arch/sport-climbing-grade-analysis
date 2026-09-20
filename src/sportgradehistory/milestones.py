@@ -20,8 +20,12 @@ Neither milestone list is hardcoded — both are derived from
 of this module are **reconciliation targets only**, used to report
 disagreements, never as a data source.
 
-Two curated tables patch known holes in the scrape, each entry cited:
+Three curated tables patch known holes in the scrape, each entry cited:
 
+* ``TIE_BREAKS`` resolves same-year ties the dates cannot settle, where a
+  year-only date anchored to 1 January would otherwise decide a milestone by
+  artifact. Applied only where :func:`_ordering_unresolved` agrees the data
+  cannot order the pair; the losing rival is still reported.
 * ``FA_SUPPLEMENTS`` fills first-ascent fields for rows the site renders
   without them (its pages omit the ascent list when the chronologically first
   entry is an unsuccessful attempt — HANDOFF.md item 1). Applied only where
@@ -70,6 +74,26 @@ FA_SUPPLEMENTS: dict[int, dict[str, str]] = {
         "first_climber": "Jakob Schubert",
         "first_ascent_date": "20th Sep 2023",
         "supplement_source": "Wikipedia: List of grade milestones in rock climbing",
+    },
+}
+
+# Same-year ties the dates cannot separate, resolved by hand and applied to
+# both conventions. A year-only date parses to 1 January, so it sorts ahead of
+# every dated rival in its year — an artifact of anchoring, not evidence of
+# being first. Where that artifact would decide a milestone, the entry below
+# names the route that takes the slot; the rival is still reported in
+# ``ordering_unresolved_with``, so nothing downstream pretends it is settled.
+TIE_BREAKS: dict[str, dict[str, object]] = {
+    # 8b, both conventions. The scrape dates Les Mains Sales to "1984" (year
+    # only) and Kanal im Rücken to 24 Oct 1984. Wikipedia's grade-milestone
+    # list and this module's own seed lists both name Kanal im Rücken as the
+    # first 8b, so the dated route takes the slot.
+    "8b": {
+        "climb_id": 521,
+        "note": (
+            "Kanal im Rücken, 24 Oct 1984 (dated); Les Mains Sales is year-only "
+            "1984 and only sorts first because it anchors to 1 January."
+        ),
     },
 }
 
@@ -269,6 +293,19 @@ def milestone_table(
         first = at_grade.sort_values(
             ["first_ascent", "climb_id"], kind="stable"
         ).iloc[0]
+
+        # A curated tie-break may take the slot from the anchored-date winner,
+        # but only where the data genuinely cannot order the two: overriding a
+        # resolved ordering would be discarding evidence, not an artifact.
+        tie_break = TIE_BREAKS.get(FRENCH_SCALE[int(ordinal)])
+        if tie_break is not None:
+            preferred = at_grade[at_grade["climb_id"] == tie_break["climb_id"]]
+            if (
+                not preferred.empty
+                and preferred.iloc[0]["climb_id"] != first["climb_id"]
+                and _ordering_unresolved(first, preferred.iloc[0])
+            ):
+                first = preferred.iloc[0]
 
         # Same-year rivals the dates cannot actually separate. The winner
         # above is the anchored-date ordering, which for year-only dates is
