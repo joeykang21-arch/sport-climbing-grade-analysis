@@ -46,9 +46,9 @@ Rebuild everything with `python -m sportgradehistory.build_datasets`.
 | --- | --- | --- |
 | `climbs_detail.csv` | 7,669 × 11 | Every scraped climb, header fields repaired. Columns: `climb_id`, `climb_url`, `climb_name`, `grade` (free text, case = scale), `climb_type`, `location`, `num_ascents` (successful only, per the site), `first_climber`, `first_style` (e.g. `"Lead \| worked"`, `"Lead \| onsight"`), `first_ascent_date` (free text: `"4th Jun 2017"`, `"Jul 1998"`, `"1990"`, `"Before …"`), `first_suggested_grade` (the FA-ist's grade, **sparse** — see caveats). |
 | `climbs_index.csv` | 8,114 × 8 | The cleaned listing: `climb_name`, `climb_url`, `type`, `grade`, `ascents_recorded`, `notes` (editorial free text — regrade stories often live here), `exclude_reason`, `page`. |
-| `sport_routes.csv` | 2,027 × 17 | The sport dataset. Adds `grade_clean` (slash pairs → lower half, qualifiers dropped), `grade_order` (**french_ordinal** — sort on this, never the string), `is_multipitch` (bool), `yds` (approximate conversion, display only), `first_ascent` (parsed Timestamp; year/month-only anchored to period start), `first_ascent_year`. Sorted by grade then date. |
-| `sport_8a_and_above.csv` | 1,862 × 17 | Rows of `sport_routes.csv` with `grade_order >= french_ordinal("8a")` — one notch under the first milestone (8a+, The Face, 1983). |
-| `regraded_routes.csv` | 86 × 20 | Sport routes where the FA-ist's suggestion parses to a French grade different from today's consensus. Adds `suggested_clean`, `suggested_order`, `direction` (`upgrade`/`downgrade`). **Bounded by the sparse suggestion field.** |
+| `sport_routes.csv` | 2,027 × 18 | The sport dataset. Adds `grade_clean` (slash pairs → lower half, qualifiers dropped), `grade_order` (**french_ordinal** — sort on this, never the string), `is_multipitch` (bool), `yds` (approximate conversion, display only), `first_ascent` (parsed Timestamp; year/month-only anchored to period start), `first_ascent_year`, `suggested_grade_source` (null unless `first_suggested_grade` came from a cited correction in `build_datasets.SUGGESTED_GRADE_PATCHES` rather than the scrape). Sorted by grade then date. |
+| `sport_8a_and_above.csv` | 1,862 × 18 | Rows of `sport_routes.csv` with `grade_order >= french_ordinal("8a")` — one notch under the first milestone (8a+, The Face, 1983). |
+| `regraded_routes.csv` | 87 × 21 | Sport routes where the FA-ist's suggestion parses to a French grade different from today's consensus. Adds `suggested_clean`, `suggested_order`, `direction` (`upgrade`/`downgrade`). **Bounded by the sparse suggestion field.** |
 | `boulders.csv` | 3,098 × 16 | The control group: outdoor `Boulder problem` rows, Font-ordered (`font_ordinal`), with `v_grade`. |
 
 ## The exact sport filter
@@ -114,9 +114,15 @@ before claiming month precision.
    9b (Rouhling, 6 Jun 1995) — i.e. the site records the famous claim as a
    downgraded route, not a disputed one. It appears in `regraded_routes.csv`.
 4. **`first_suggested_grade` is sparse: 254 of 1,978 sport-typed rows.**
-   `regraded_routes.csv` (86 rows) can only see regrades where the site
+   `regraded_routes.csv` (87 rows) can only see regrades where the site
    recorded a suggestion. The `notes` column of `climbs_index.csv` carries
    more regrade stories as free text.
+   It is also occasionally *wrong* in one direction: the field can hold the
+   grade a route settled at rather than the one its first ascentionist called.
+   **Bibliographie (466)** is the known case — Megos proposed 9c in Aug 2020 and
+   the site's own description says so, while the field records the 9b+ it landed
+   on after Ghisolfi's repeat. `build_datasets.SUGGESTED_GRADE_PATCHES` corrects
+   it, cited, and only while the scrape still carries the stale value.
 5. **89 of 2,027 sport rows have no parseable `first_ascent`** (`NaT`), 18
    also lack `first_climber` (subset of item 1). They sort last within their
    grade rather than being dropped.

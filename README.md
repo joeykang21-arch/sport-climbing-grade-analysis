@@ -30,7 +30,7 @@ recorded suggestion, reconstructed via `regraded_routes.csv`.
 | Grade | `as_proposed` | `as_consensus` | Moves |
 | --- | --- | --- | --- |
 | 8a+ | The Face, 1983 | The Face, 1983 | — |
-| 8b | Les Mains Sales, 1984 | Les Mains Sales, 1984 | — |
+| 8b | Kanal im Rücken, 24 Oct 1984 | Kanal im Rücken, 24 Oct 1984 | — |
 | 8b+ | Punks in the Gym, 1985 | Punks in the Gym, 1985 | — |
 | 8c | Wallstreet, 1987 | Wallstreet, 1987 | — |
 | **8c+** | Hubble, 14 Jun 1990 | **Liquid Ambar, 30 Mar 1990** | 11 weeks |
@@ -61,6 +61,81 @@ Two corrections to the popular framing, both from the data:
   mid-2027 or mid-2030 respectively.
 - **The runway thins at the top.** 9a+ arrived over a 17-route 9a runway; 9c
   arrived with only **three** 9b+ routes standing.
+
+### The female ladder makes the same mistake available twice
+
+`05_female_progression.ipynb` runs both of notebook 02's stages on the female
+ladder (8a, Luisa Iovane, 1986 → 9b+, Brooke Raboutou, April 2025), and gets the
+same lesson.
+
+Hide the top rung, fit six shapes to the other nine, and ask for 9b+: **the cubic
+lands within six months** of Excalibur and beats second place by two and a half
+years. Then make every method predict five rungs it never saw instead of one, and
+**the cubic finishes seventh of ten**, with a typical miss of 10.9 years. Its
+half-year hit on 9b+ was the last number in a run containing a seventeen-year and
+a fourteen-year miss.
+
+What wins is the method with no shape in it at all — the same one that wins on
+the men's ladder:
+
+| | female 9c | typical miss |
+| --- | --- | --- |
+| **Average of the last 3 gaps** (selected) | **2032.7** | **5.3 y** |
+| Poly 2 (best curve) | 2034.7 | 5.6 y |
+| Poly 1 | 2026.3 | 6.0 y |
+| Poly 3 (winner of the single hold-out) | 2031.2 | 10.9 y |
+
+Every method scoring under six years puts 9c between **2026 and 2035**; the
+selected method's own track record spans **2027–2038**. An independent check that
+fits nothing — how far the female ladder trails the male one, grade for grade —
+lands on **2028–2032**. Read it as the early-to-mid 2030s.
+
+**9c+ gets no number it has earned.** It is two steps past the data, and every
+fold of the test predicted exactly one grade ahead, so it carries the same
+"validated by nothing" label the men's notebook puts on 10a.
+
+The ladder is not derived from the scrape, and cannot be — the site records no
+gender, and this snapshot kept only each climb's first-ascent row while eight of
+the ten female milestones are *repeats*. It lives in
+`sportgradehistory.female_milestones` as a curated table with an external
+source, cross-checked against the scrape wherever the scrape can speak: **all
+eight routes the site carries agree on grade**. The two it does not carry (Come
+Back, Choucas) rest on the external source alone.
+
+### The flash ladder says 9b first try is due now
+
+`06_flash_progression.ipynb` runs the same pair of tests on a third ladder — the
+hardest grade climbed **first try**, 7b+ (Edlinger, 1982) to 9a+ (Ondra, Super
+Crackinette, 2018). The reversal happens a third time: hide one rung and the
+quartic wins (−1.1 years on 9a+); make every method predict five and the quartic
+finishes **ninth of ten** at 7.9 years, one of its folds missing by fifteen.
+
+This ladder is the most predictable of the three — typical misses run 3.2 to 9.9
+years against the female ladder's 5.3 to 19.4 — and it is the only one where a
+curve wins, though barely:
+
+| | 9b first try | typical miss |
+| --- | --- | --- |
+| **Poly 2** (selected) | **2026.1** | **3.2 y** |
+| Average of the last 3 gaps | 2022.6 | 3.3 y |
+| All eight methods under the six-year bar | 2019.0 – 2026.8 | — |
+| Lag behind the redpoint ladder | 2026 – 2030 | — |
+
+Two months separate the top two across five folds, so read them as tied. **Every
+method that clears the bar says the first 9b flash is already due or overdue**,
+and the independent lag check — how far first-try ascents trail redpoint ascents,
+now about 22 years — puts it at 2026–2030. The ladder has been stalled 8.6 years
+since Super Crackinette; the longest completed gap in its history is the 9.8
+years from 8b+ (1995) to 8c (2004), so the current wait takes the record in late
+2027.
+
+Three caveats travel with it, all in the record rather than the method: the
+ladder **mixes flash with onsight** (a flash allows beta, so every rung is a
+lower bound on the onsight standard), it has **no recorded 8a+**, and its first
+two rungs **share the year 1982**, making the opening gap exactly zero. Three
+rungs — Samizdat, Massey Fergusson and Bizi Euskaraz — were first ascents by the
+climber claiming them, so the grade was self-proposed rather than confirmed in
+advance.
 
 ## Layout
 
@@ -124,10 +199,15 @@ carrying at least one recorded ascent, out of ids 1–8511. Zero fetch errors.
 | `data/processed/climbs_detail.csv` | 7,669 | The same rows with the header fields repaired |
 | `data/processed/sport_routes.csv` | 2,027 | Sport routes, French-ordered, multi-pitch flagged |
 | `data/processed/sport_8a_and_above.csv` | 1,862 | The hard subset the timelines are built on |
-| `data/processed/regraded_routes.csv` | 86 | Routes whose consensus grade moved off the FA's suggestion |
-| `data/processed/disputed_ascents.csv` | 274 | Every 9a+-and-up route with a status: consensus 108, unrepeated 132, regraded 32, **disputed 2** |
+| `data/processed/regraded_routes.csv` | 87 | Routes whose consensus grade moved off the FA's suggestion |
+| `data/processed/disputed_ascents.csv` | 274 | Every 9a+-and-up route with a status: consensus 107, unrepeated 132, regraded 33, **disputed 2** |
 | `data/processed/boulders.csv` | 3,098 | The boulder control group, Font-ordered |
 | `data/processed/milestones_*.csv` | 10 each | The milestone tables, one file per convention |
+| `data/processed/female_milestones.csv` | 10 | The female ladder, 8a (1986) to 9b+ (2025) — curated, not scraped |
+| `data/processed/female_model_scores.csv` | 10 | Every method's track record over the five-fold test, with its 9c / 9c+ estimate |
+| `data/processed/flash_milestones.csv` | 10 | The flash/onsight ladder, 7b+ (1982) to 9a+ (2018) — curated, not scraped |
+| `data/processed/flash_model_scores.csv` | 10 | The same track record on the flash ladder, with its 9b / 9b+ estimate |
+| `data/processed/milestone_sport_pyramids.csv` | 10 | Each milestone FA-ist's prior first ascents by French grade, at the moment of that milestone |
 
 Every processed file is also written as `.xlsx`. CSV is canonical — it is what
 diffs usefully in git — and the Excel copies are generated alongside it.
@@ -195,14 +275,20 @@ function, never by relying on case surviving.
 | `01_dataset_overview.ipynb` | What the scrape contains, and a raw-vs-cleaned check of each defect |
 | `01b_snapshot_diff.ipynb` | Diffs this scrape against `data/raw/archive/`: climbs added, ascents added, grades that moved |
 | `02_grade_progression.ipynb` | Milestones and regressions under both conventions, the 9c+ estimate, and the 2017-to-now stall |
-| `03_era_and_pyramids.ipynb` | Routes established per era, runway volume before each breakthrough, and the FA-ist's pyramid at that moment |
+| `03_era_and_pyramids.ipynb` | Routes established per era, runway volume before each breakthrough, and the FA-ist's pyramid at that moment, as a table and drawn |
 | `04_timeline_figures.ipynb` | Renders the poster-style PNGs into `figures/` |
+| `05_female_progression.ipynb` | The female ladder under notebook 02's two tests: the one-rung hold-out that crowns a cubic, the five-rung test that demotes it, and what survives about 9c |
+| `06_flash_progression.ipynb` | The hardest-flash/onsight ladder under the same pair of tests, and when 9b goes first try |
 
 ## Visualizations
 
 `visualizations/index.html` links the interactive timelines: one page per
 grade era from 8a+ (1983) to the open 9c era, plus the upgrades and downgrades
-recorded within each. They are plain static pages with inline CSS and inline
+recorded within each. Three pages cut across all ten eras at once —
+`runway-by-grade.html` for what was established at a grade before the next one
+arrived, and `upgrades-by-grade.html` / `downgrades-by-grade.html` for which
+routes from those same windows were later judged harder or easier than the
+first ascentionist said. They are plain static pages with inline CSS and inline
 SVG, no JavaScript and no build step, so opening the file in a browser and
 serving the directory over GitHub Pages both work.
 
@@ -216,11 +302,16 @@ serving the directory over GitHub Pages both work.
 - **Two milestones fall eleven weeks apart under `as_consensus`.** Liquid
   Ambar and Hubble, spring 1990. Any fit through those points is distorted,
   and notebook 02 says so wherever a fit statistic appears.
-- **Some orderings are unresolved and are labelled, not guessed.** Year-only
-  ascent dates anchor to 1 January, so a year-only route can appear to precede
-  a dated one in the same year. Where that happens — *Les Mains Sales* vs
-  *Kanal im Rücken* at 8b, *Qui* vs *Open Air* at 9a+ — the milestone tables
-  carry an `ordering_unresolved_with` column rather than a verdict.
+- **Some orderings are unresolved, and are labelled rather than guessed.**
+  Year-only ascent dates anchor to 1 January, so a year-only route can appear
+  to precede a dated one in the same year. Every such pair is named in the
+  milestone tables' `ordering_unresolved_with` column rather than silently
+  ordered: *Qui* vs *Open Air* at 9a+ (either way, 9a+ lands in 1996), and
+  *Les Mains Sales* vs *Kanal im Rücken* at 8b. The 8b pair is the one case
+  decided by hand — `TIE_BREAKS` in `milestones.py` gives the slot to Kanal im
+  Rücken, which carries a real date (24 Oct 1984) where Les Mains Sales has
+  only "1984", and which both Wikipedia's milestone list and this repo's seed
+  lists name as the first 8b. The rival is still reported alongside it.
 - **Disputed claims are excluded from both main timelines**, and shown in a
   third variant so the reader can see what accepting them would do. Akira
   (Fred Rouhling, 1995, claimed 9b) and Chilam Balam (Bernabé Fernández, 2003,
@@ -245,9 +336,22 @@ serving the directory over GitHub Pages both work.
 - **`first_suggested_grade` is sparse** — 254 of 1,978 sport rows — so
   `regraded_routes.csv` is a floor, not a census, and `as_proposed` assumes a
   route with no recorded suggestion was never regraded.
+  It can also record the grade a route *settled* at instead of the one its first
+  ascentionist called: Bibliographie is carried at 9b+ on both sides though Megos
+  proposed 9c in 2020, which the site's own description says. That one is
+  corrected, cited, in `build_datasets.SUGGESTED_GRADE_PATCHES`, and a
+  `suggested_grade_source` column marks every row the correction touched.
 - **First-repeat lag is not computable from this snapshot.** Only the first
   ascent row per climb was scraped, not the full ascent list. Notebook 02 uses
   the share of each grade still unrepeated as the honest proxy and says so.
+- **The female ladder rests partly on an external source.** Two of its ten
+  rungs (Come Back 8a, Choucas 8a+) are absent from the scrape entirely, three
+  of the ten dates are year-only, and one ordering is unresolved: Choucas (8a+,
+  March 1988) and Sortilèges (8b, "1988") invert under 1 January anchoring.
+  Reported in notebook 05 rather than quietly fixed. Its 9a → 9a+ interval —
+  fourteen and a half years, Bereziartu 2002 to Hayes 2017 — is the longest in
+  the ladder and sets the curvature every model is trying to follow; that gap is
+  about participation as much as difficulty, and no curve here knows it.
 - **The record thins going back.** Pre-2000 ascent dates are often year-only,
   and the site is a retrospective community record, so early-era volumes
   reflect what was remembered and entered rather than what existed.
