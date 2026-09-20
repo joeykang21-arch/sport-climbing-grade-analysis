@@ -1,0 +1,11 @@
+milestone,grade,route,climber,year,n_prior_fas,top_grade,pyramid
+8a+  The Face,8a+,The Face,Jerry Moffatt,1983,3,8a,7c+x2  8ax1
+8b  Kanal im Rücken,8b,Kanal im Rücken,Wolfgang Güllich,1984,2,8a,7c+x1  8ax1
+8b+  Punks in the Gym,8b+,Punks in the Gym,Wolfgang Güllich,1985,3,8b,7c+x1  8ax1  8bx1
+8c  Wallstreet,8c,Wallstreet,Wolfgang Güllich,1987,7,8b+,7c+x1  8ax1  8bx4  8b+x1
+8c+  Liquid Ambar,8c+,Liquid Ambar,Jerry Moffatt,1990,13,8b+,7c+x5  8ax4  8a+x2  8bx1  8b+x1
+9a  Hubble,9a,Hubble,Ben Moon,1990,5,8c,8ax2  8bx1  8cx2
+9a+  Qui,9a+,Qui,Stefan Fürst,1996,0,,-
+9b  Jumbo Love,9b,Jumbo Love,Chris Sharma,2008,12,9a+,8bx2  8b+x1  8cx3  8c+x1  9ax2  9a+x3
+9b+  Change,9b+,Change,Adam Ondra,2012,45,9b,8ax1  8a+x1  8bx1  8b+x2  8cx7  8c+x9  9ax13  9a+x9  9bx2
+9c  Silence,9c,Silence,Adam Ondra,2017,87,9b+,8ax1  8a+x1  8bx1  8b+x2  8cx12  8c+x17  9ax26  9a+x16  9bx8  9b+x3
