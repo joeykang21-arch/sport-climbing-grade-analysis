@@ -12,7 +12,7 @@ lists and timelines the sport pages carry are deliberately absent: this page is
 the comparison, not the catalogue.
 
 Why the boulder side is worth drawing at all: the suggested-grade field is much
-better populated here than on the sport side — 216 problems disagree with their
+better populated here than on the sport side — 214 problems disagree with their
 FA suggestion against 85 routes — so the same question gets two and a half times
 the evidence, and the up/down balance comes out the other way round.
 
@@ -47,6 +47,21 @@ OUT_NAME = "boulder-regrades-by-grade.html"
 # the era below the frontier is the context the frontier is read against.
 ERA_START = "8A"
 
+# Problems whose suggested-grade field disagrees with the consensus for a
+# reason other than a regrade, dropped from the selection by climb id. Each
+# entry names what the field really holds, so the exclusion can be retired if a
+# later scrape corrects it.
+NOT_REGRADES: dict[int, str] = {
+    # Kaizen, Torrelodones. The FA's "9a" is a route grade, not Font 9A;
+    # ``font_ordinal`` case-folds it into a 9A suggestion and a phantom
+    # two-grade downgrade to 8C.
+    4170: "suggestion given on the route scale (9a), not Font",
+    # Blackflip SDS, Djan-Tugan. The "8C+/9A" suggestion was later raised to
+    # 9A by the first ascentionist, so the consensus agrees with the
+    # FA's own final grade and there is no upgrade by anyone else.
+    2532: "retroactively upgraded by the first ascentionist",
+}
+
 
 def load_boulders() -> pd.DataFrame:
     """``boulders.csv``, with the site's duplicate entries dropped.
@@ -70,11 +85,13 @@ def select_regrades(boulders: pd.DataFrame) -> pd.DataFrame:
     same three columns — ``suggested_clean``, ``suggested_order``,
     ``direction`` — are derived here against ``font_ordinal`` instead of
     ``french_ordinal``. Thirteen suggestions do not parse as Font grades (they
-    are V grades or free text) and drop out with them.
+    are V grades or free text) and drop out with them, as do the problems in
+    :data:`NOT_REGRADES`.
     """
     suggested_order = boulders["first_suggested_grade"].map(font_ordinal)
     changed = (
-        suggested_order.notna()
+        ~boulders["climb_id"].isin(NOT_REGRADES)
+        & suggested_order.notna()
         & boulders["grade_order"].notna()
         & (suggested_order != boulders["grade_order"])
     )
